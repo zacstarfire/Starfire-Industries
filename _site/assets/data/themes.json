@@ -1,0 +1,13 @@
+
+
+  {
+  "themes":
+  [
+    {"name": "UnoLight",    "css": "/assets/themes/j1/core/css/themes/unolight/bootstrap.css"},
+    {"name": "UnoDark",     "css": "/assets/themes/j1/core/css/themes/unodark/bootstrap.css"},
+    {"name": "Bootstrap",   "css": "/assets/themes/j1/core/css/themes/bootstrap/bootstrap.css"}
+  ]
+}
+
+
+

@@ -1,0 +1,109 @@
+
+
+
+  <!-- [INFO   ] [~/assets/data/translator.html                ] [ set meta data (robots) to exclude HTML datafiles from index ] -->
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<!-- START UI container -->
+<div id="gemini_ui_container" style="display: none">
+    <div id="prompt_history_container" style="display: none">
+      <div class="gallery-title mt-3">Last Prompts</div>
+      <!-- create prompt history wrapper -->
+      <!-- prompt history select added by module slimSelect -->
+      <div id="prompt_history_select_wrapper"></div>
+    </div>
+    <!-- Request input -->
+    <div class="gallery-title mt-3">Prompt</div>
+    <div class="form-group">
+      <textarea
+        id="prompt"
+        class="form-control mb-3"
+        placeholder="Please enter a text describing the task or question for which the chatbot should process
+"
+        rows="7">
+      </textarea>
+      <!-- UI buttons -->
+      <!-- Send request button -->
+      <button id="send" class="btn btn-primary" type="button">
+        <span id="spinner" class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+        <span role="status">Process prompt</span>
+      </button>
+      <!-- Reset request button -->
+      <button id="reset" type="button" class="btn btn-warning mt-1">Clear prompt</button>
+      <!-- Clear history button (show hidden) -->
+      <button id="clear" type="button" class="btn btn-danger mt-1" style="display: none">Clear last prompts</button>
+      <!-- END UI buttons -->
+    </div>
+    <!-- END Request input -->
+    <!-- Response container -->
+    <div id="response" class="mt-4 mb-7">
+      <h3 id="result" class="mb-3 notoc speak2me-ignore">Response</h3>
+      <div id="md_result"></div>
+    </div>
+    <!-- END Response container -->
+    <!-- Modal error (top|right) -->
+    <div id="confirmError"
+      class="modal fade right"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="confirmErrorLabel" aria-hidden="true"
+      data-bs-keyboard="false"
+      data-bs-backdrop="static">
+      <div class="modal-dialog modal-side modal-top-right modal-notify modal-danger" role="document">
+        <!-- Content -->
+        <div class="modal-content">
+          <!-- Header -->
+          <div class="modal-header">
+            <p class="lead">API request failure</p>
+            <!-- button type="button" class="btn close float-end" data-bs-dismiss="modal" aria-label="Close">
+              <i class="mdi mdi-close mdi-dark mdi-48px"></i>
+            </button -->
+          </div>
+          <!-- END Header -->
+          <!-- Body -->
+          <div class="modal-body">
+            <div class="text-center">
+              <i class="mdib mdib-4x mdib-alert md-red mb-1"></i>
+              <p id="modal_error">Error text placeholder</p>
+            </div>
+          </div>
+          <!-- END Body -->
+          <!-- Footer -->
+          <div class="modal-footer justify-content-center">
+            <a type="button" class="btn btn-primary mr-2" data-bs-dismiss="modal">Close</a>
+          </div>
+          <!-- END Footer -->
+        </div>
+        <!-- END Content -->
+      </div>
+    </div>
+    <!-- END Modal error -->
+    <!-- Modal confirm (bottom|full-width) -->
+    <div id="clearHistory"
+      class="modal fade bottom"
+      tabindex="-1"
+      aria-labelledby="confirmClearHistory"
+      data-bs-keyboard="false"
+      data-bs-backdrop="static">
+      <div class="modal-dialog modal-frame modal-bottom modal-notify modal-danger" role="document">
+        <!-- Content -->
+        <div class="modal-content">
+          <!-- Body -->
+          <div class="modal-body">
+            <p class="mt-1 ml-3 mr-2">Do you want to <b>delete</b> all last prompt items?</p>
+            <div class="row ml-3">
+              <a id="accecptClearHistory" type="button" class="btn btn-danger mr-2" data-bs-dismiss="modal">Yes, please</a>
+              <a id="dismissClearHistory" type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">No, thanks</a>
+            </div>
+          </div>
+        </div>
+        <!-- END Content -->
+      </div>
+    </div>
+    <!-- END Modal confirm -->
+</div>
+<!-- END UI container -->
+
+
+

@@ -1,0 +1,111 @@
+---
+title:                                  Page Title
+tagline:                                Page Tagline
+date:                                   2022-01-01 00:00:00
+description: >
+                                        Things you should know about this site, the people, the software
+                                        and the services provided by this project.
+keywords: >
+                                        Jekyll, Theme, JekyllOne, J1, About, Project, Site
+
+categories:                             [ About ]
+tags:                                   [ Site, Review ]
+
+image:
+  path:                                 /assets/images/modules/attics/machine-generator-1920x1280.jpg
+  width:                                1920
+  height:                               1280
+  alt:                                  J1 Theme Mockup
+
+fab_menu_id:                            default
+scrollbar:                              false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/about/starter/
+
+resources:                              [ animate ]
+resource_options:
+  - attic:
+      padding_top:                      600
+      slides:
+        - url:                          /assets/images/modules/attics/machine-generator-1920x1280.jpg
+          alt:                          J1 Themes Mockup
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+// Attribute settings for section control
+//
+:badges-enabled:                        true
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+ifeval::[{badges-enabled} == true]
+[role="mb-5"]
+{badge-j1--version-latest} {badge-j1--downloads}
+endif::[]
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Donald Scott Gould
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+
+.Grandpa's Birthday Test
+image::/assets/images/modules/gallery/old_times/image_01.jpg["GrandPa's 80th Birthday", role="mb-4 wm-800"]
+
+
+.Donald Byde Gould
+image::/assets/images/modules/gallery/dbgould/image_01.jpg["Donald Byde Gould", role="mb-4 wm-800"]
+
+
+== Experience in catering since lorem:date[%Y]
+lorem:sentences[5]
+
+lorem:sentences[7]
+
+== Our services
+lorem:sentences[7]
+
+lorem:sentences[5]
+
+=== Large selection of national and internal dishes
+lorem:sentences[5]
+
+== Contact addresses
+Contact person lorem:name[] +
+Service mailbox lorem:email[]
+
+
+
+
+A battery symbol is used on the pages of the J1 Theme documentation,
+which symbolizes the individual level of knowledge for the use of:
+
+* Functions for beginners of template system J1: {level--beginner}
+
+* Functions for users with basic knowledge of J1: {level--intermediate}
+
+* Advanced J1 features: {level--advanced}
+
+* Functions for experts in the application of J1: {level--expert}
+
+You find an overview of all the functions of the template system J1 on the
+page link:{url-j1--features}[J1 Theme Features, {browser-window--new}].

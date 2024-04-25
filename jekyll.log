@@ -1,0 +1,634 @@
+[33m     Build Warning: Skipping the initial build. This may result in an out-of-date site.[0m
+asciidoctor: ERROR: highlghter_rouge.adoc: line 73: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 74: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 75: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 76: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 77: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/000_intro/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/000_intro.adoc[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/000_intro.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/100_converter/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/100_converter.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/100_converter.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/copyright/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/100_copyright.adoc[0m
+[33m                     - pages/public/legal/en/100_copyright.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/impress/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/200_impress.adoc[0m
+[33m                     - pages/public/legal/en/200_impress.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/200_themes/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/200_themes.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/200_themes.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/privacy/index.html[0m[0m
+[33m                     - pages/public/legal/en/300_privacy.adoc[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/300_privacy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/comment_policy/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/400_comment_policy.adoc[0m
+[33m                     - pages/public/legal/en/400_comment_policy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/asciidoc_extensions/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/asciidoc_extensions.adoc[0m
+[33m                     - pages/public/learn/roundtrip/asciidoc_extensions.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/themes/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/bootstrap_themes.adoc[0m
+[33m                     - pages/public/learn/roundtrip/bootstrap_themes.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/documentation.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/documentation.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/features/index.html[0m[0m
+[33m                     - pages/public/about/features.adoc[0m
+[33m                     - WebsiteDocs/pages/public/about/features.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/features/general_features/index.html[0m[0m
+[33m                     - pages/public/features/general.adoc[0m
+[33m                     - WebsiteDocs/pages/public/features/general.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/rouge/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/highlghter_rouge.adoc[0m
+[33m                     - pages/public/learn/roundtrip/highlghter_rouge.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/mdi_icon_font/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/icon_fonts.adoc[0m
+[33m                     - pages/public/learn/roundtrip/icon_fonts.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/jekyll_collections/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/jekyll_collections.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/jekyll_collections.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/quicksearch/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/lunr_search.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/lunr_search.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/modals/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/modal_extentions.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/modal_extentions.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/multi/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/multi-document/multi.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/multi-document/multi.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/panels/intro_panel/index.html[0m[0m
+[33m                     - pages/public/panels/intro_panel/panel.adoc[0m
+[33m                     - WebsiteDocs/pages/public/panels/intro_panel/panel.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/plans/plan_details/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/plans/plans.adoc[0m
+[33m                     - pages/public/plans/plans.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/present_audio_video/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/present_audio_video.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/present_audio_video.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/present_images/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/present_images.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/present_images.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/tools/previewer/current_theme/index.html[0m[0m
+[33m                     - pages/public/tools/previewer/preview_bootstrap_theme.adoc[0m
+[33m                     - WebsiteDocs/pages/public/tools/previewer/preview_bootstrap_theme.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/reporting_issues/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/about/reporting_issues.adoc[0m
+[33m                     - pages/public/about/reporting_issues.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/responsive_tables/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/responsive_tables.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/responsive_tables.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/simple/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/simple-document/simple.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/simple-document/simple.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/starter/index.html[0m[0m
+[33m                     - pages/public/about/site.adoc[0m
+[33m                     - WebsiteDocs/pages/public/about/site.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/features/template_features/index.html[0m[0m
+[33m                     - pages/public/features/template.adoc[0m
+[33m                     - WebsiteDocs/pages/public/features/template.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/typography/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/typography.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/typography.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/viewer_all_books/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/viewer_all_books.adoc[0m
+[33m                     - pages/public/learn/bookshelf/viewer_all_books.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/biography/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_biography.adoc[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_biography.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/fantasy/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_fantasy.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_fantasy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/romance/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_romance.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_romance.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/where_to_go/index.html[0m[0m
+[33m                     - pages/public/learn/where_to_go.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/where_to_go.adoc[0m
+[33m                    [0m
+[33m             Error: No such file or directory @ rb_file_s_stat - W:/WebsiteDocs/WebsiteDocs/WebsiteDocs.code-workspace[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+asciidoctor: ERROR: highlghter_rouge.adoc: line 73: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 74: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 75: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 76: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 77: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/000_intro/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/000_intro.adoc[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/000_intro.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/100_converter/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/100_converter.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/100_converter.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/copyright/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/100_copyright.adoc[0m
+[33m                     - pages/public/legal/en/100_copyright.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/impress/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/200_impress.adoc[0m
+[33m                     - pages/public/legal/en/200_impress.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/200_themes/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/200_themes.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/200_themes.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/privacy/index.html[0m[0m
+[33m                     - pages/public/legal/en/300_privacy.adoc[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/300_privacy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/comment_policy/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/400_comment_policy.adoc[0m
+[33m                     - pages/public/legal/en/400_comment_policy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/asciidoc_extensions/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/asciidoc_extensions.adoc[0m
+[33m                     - pages/public/learn/roundtrip/asciidoc_extensions.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/themes/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/bootstrap_themes.adoc[0m
+[33m                     - pages/public/learn/roundtrip/bootstrap_themes.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/documentation.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/documentation.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/features/index.html[0m[0m
+[33m                     - pages/public/about/features.adoc[0m
+[33m                     - WebsiteDocs/pages/public/about/features.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/features/general_features/index.html[0m[0m
+[33m                     - pages/public/features/general.adoc[0m
+[33m                     - WebsiteDocs/pages/public/features/general.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/rouge/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/highlghter_rouge.adoc[0m
+[33m                     - pages/public/learn/roundtrip/highlghter_rouge.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/mdi_icon_font/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/icon_fonts.adoc[0m
+[33m                     - pages/public/learn/roundtrip/icon_fonts.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/jekyll_collections/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/jekyll_collections.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/jekyll_collections.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/quicksearch/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/lunr_search.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/lunr_search.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/modals/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/modal_extentions.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/modal_extentions.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/multi/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/multi-document/multi.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/multi-document/multi.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/panels/intro_panel/index.html[0m[0m
+[33m                     - pages/public/panels/intro_panel/panel.adoc[0m
+[33m                     - WebsiteDocs/pages/public/panels/intro_panel/panel.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/plans/plan_details/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/plans/plans.adoc[0m
+[33m                     - pages/public/plans/plans.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/present_audio_video/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/present_audio_video.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/present_audio_video.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/present_images/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/present_images.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/present_images.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/tools/previewer/current_theme/index.html[0m[0m
+[33m                     - pages/public/tools/previewer/preview_bootstrap_theme.adoc[0m
+[33m                     - WebsiteDocs/pages/public/tools/previewer/preview_bootstrap_theme.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/reporting_issues/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/about/reporting_issues.adoc[0m
+[33m                     - pages/public/about/reporting_issues.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/responsive_tables/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/responsive_tables.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/responsive_tables.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/simple/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/simple-document/simple.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/simple-document/simple.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/starter/index.html[0m[0m
+[33m                     - pages/public/about/site.adoc[0m
+[33m                     - WebsiteDocs/pages/public/about/site.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/features/template_features/index.html[0m[0m
+[33m                     - pages/public/features/template.adoc[0m
+[33m                     - WebsiteDocs/pages/public/features/template.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/typography/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/typography.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/typography.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/viewer_all_books/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/viewer_all_books.adoc[0m
+[33m                     - pages/public/learn/bookshelf/viewer_all_books.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/biography/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_biography.adoc[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_biography.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/fantasy/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_fantasy.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_fantasy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/romance/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_romance.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_romance.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/where_to_go/index.html[0m[0m
+[33m                     - pages/public/learn/where_to_go.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/where_to_go.adoc[0m
+[33m                    [0m
+[33m             Error: No such file or directory @ rb_file_s_stat - W:/WebsiteDocs/WebsiteDocs/WebsiteDocs.code-workspace[0m
+[33m             Error: Run jekyll build --trace for more information.[0m
+asciidoctor: ERROR: highlghter_rouge.adoc: line 73: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 74: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 75: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 76: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+asciidoctor: ERROR: highlghter_rouge.adoc: line 77: include file not found: W:/websitedocs/WebsiteDocs/pages/public/learn/roundtrip/_includes/attributes.asciidoc
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/000_intro/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/000_intro.adoc[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/000_intro.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/100_converter/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/100_converter.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/100_converter.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/copyright/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/100_copyright.adoc[0m
+[33m                     - pages/public/legal/en/100_copyright.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/impress/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/200_impress.adoc[0m
+[33m                     - pages/public/legal/en/200_impress.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/200_themes/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/200_themes.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/200_themes.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/privacy/index.html[0m[0m
+[33m                     - pages/public/legal/en/300_privacy.adoc[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/300_privacy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/legal/en/comment_policy/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/legal/en/400_comment_policy.adoc[0m
+[33m                     - pages/public/legal/en/400_comment_policy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/asciidoc_extensions/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/asciidoc_extensions.adoc[0m
+[33m                     - pages/public/learn/roundtrip/asciidoc_extensions.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/themes/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/bootstrap_themes.adoc[0m
+[33m                     - pages/public/learn/roundtrip/bootstrap_themes.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/documentation/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/documentation/documentation.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/documentation/documentation.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/features/index.html[0m[0m
+[33m                     - pages/public/about/features.adoc[0m
+[33m                     - WebsiteDocs/pages/public/about/features.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/features/general_features/index.html[0m[0m
+[33m                     - pages/public/features/general.adoc[0m
+[33m                     - WebsiteDocs/pages/public/features/general.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/rouge/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/highlghter_rouge.adoc[0m
+[33m                     - pages/public/learn/roundtrip/highlghter_rouge.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/mdi_icon_font/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/icon_fonts.adoc[0m
+[33m                     - pages/public/learn/roundtrip/icon_fonts.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/jekyll_collections/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/jekyll_collections.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/jekyll_collections.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/quicksearch/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/lunr_search.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/lunr_search.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/modals/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/modal_extentions.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/modal_extentions.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/multi/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/multi-document/multi.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/multi-document/multi.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/panels/intro_panel/index.html[0m[0m
+[33m                     - pages/public/panels/intro_panel/panel.adoc[0m
+[33m                     - WebsiteDocs/pages/public/panels/intro_panel/panel.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/plans/plan_details/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/plans/plans.adoc[0m
+[33m                     - pages/public/plans/plans.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/present_audio_video/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/present_audio_video.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/present_audio_video.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/present_images/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/present_images.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/present_images.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/tools/previewer/current_theme/index.html[0m[0m
+[33m                     - pages/public/tools/previewer/preview_bootstrap_theme.adoc[0m
+[33m                     - WebsiteDocs/pages/public/tools/previewer/preview_bootstrap_theme.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/reporting_issues/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/about/reporting_issues.adoc[0m
+[33m                     - pages/public/about/reporting_issues.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/responsive_tables/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/responsive_tables.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/responsive_tables.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/skeleton/simple/index.html[0m[0m
+[33m                     - pages/public/asciidoc_skeletons/simple-document/simple.adoc[0m
+[33m                     - WebsiteDocs/pages/public/asciidoc_skeletons/simple-document/simple.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/about/starter/index.html[0m[0m
+[33m                     - pages/public/about/site.adoc[0m
+[33m                     - WebsiteDocs/pages/public/about/site.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/features/template_features/index.html[0m[0m
+[33m                     - pages/public/features/template.adoc[0m
+[33m                     - WebsiteDocs/pages/public/features/template.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/roundtrip/typography/index.html[0m[0m
+[33m                     - pages/public/learn/roundtrip/typography.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/roundtrip/typography.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/viewer_all_books/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/viewer_all_books.adoc[0m
+[33m                     - pages/public/learn/bookshelf/viewer_all_books.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/biography/index.html[0m[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_biography.adoc[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_biography.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/fantasy/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_fantasy.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_fantasy.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/bookshelf/article_previewer/romance/index.html[0m[0m
+[33m                     - pages/public/learn/bookshelf/article_previewer/viewer_romance.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/bookshelf/article_previewer/viewer_romance.adoc[0m
+[33m                    [0m
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mW:/websitedocs/_site/pages/public/learn/where_to_go/index.html[0m[0m
+[33m                     - pages/public/learn/where_to_go.adoc[0m
+[33m                     - WebsiteDocs/pages/public/learn/where_to_go.adoc[0m
+[33m                    [0m
+[33m             Error: No such file or directory @ rb_file_s_stat - W:/WebsiteDocs/WebsiteDocs/WebsiteDocs.code-workspace[0m
+[33m             Error: Run jekyll build --trace for more information.[0m

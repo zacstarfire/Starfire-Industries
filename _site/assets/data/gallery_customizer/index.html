@@ -1,0 +1,85 @@
+
+
+  <!-- [INFO   ] [~/assets/data/gallery_customizer.html   ] [ set meta data (robots) to exclude HTML datafiles from index ] -->
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<!-- [INFO   ] [~/assets/data/gallery_customizer.html   ] [ Placement of the Gallery container ] -->
+<div id="galleryCustomizer" style="max-width: 1024px;">
+  <!-- [INFO   ] [~/assets/data/gallery_customizer.html   ] [Placement of the Drawer] -->
+  <nav class="nav bmd-layout-container custom-size-300 bmd-drawer-f-l">
+    <header class="bmd-layout-header">
+      <div class="navbar navbar-dark bg-primary raised-z2 mb-2">
+        <button class="bmd-drawer drawer-toggler animated fadeIn" type="button" data-bs-toggle="drawer" data-bs-target="#drw_customizer" aria-label="Menu Button">
+          <span class="mdib mdib-menu mdib-2x"></span>
+        </button>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <span class="navbar-text mr-3">Mega Cities</span>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div id="drw_customizer" class="bmd-layout-drawer bg-faded">
+      <span class="navbar-brand ml-2 mb-3" style="font-size: 1.25rem; font-weight: 500;">Settings</span>
+      <form id="jg-customizer-form" class="form-horizontal ml-2 mr-4">
+        <div>
+          <div id="options-int" class="mt-0">
+            <div class="mt-0 mb-4 ml-2">
+              <div id="jgSlider_row_heigth" class="range-slider"></div>
+            </div>
+            <div class="mt-5 mb-3 ml-2">
+              <div id="jgSlider_thumb_spacing" class="range-slider"></div>
+            </div>
+            <div class="mt-5 mb-3 ml-2">
+              <div id="jgSlider_gallery_padding" class="range-slider"></div>
+            </div>
+          </div>
+          <div id="options-boolean" class="mt-5">
+            <div class="switch">
+              <label>
+                <input id="captions" name="captions" type="checkbox" checked>
+                Enable Captions
+              </label>
+            </div>
+            <div class="switch">
+              <label>
+                <input id="random" name="random" type="checkbox">
+                Random Order
+              </label>
+            </div>
+            <div class="switch">
+              <label>
+                <input id="justify_last_row" name="justify_last_row" type="checkbox">
+                Justify Last Row
+              </label>
+            </div>
+            <div class="switch">
+              <label>
+                <input id="hide_last_row" name="hide_last_row" type="checkbox">
+                Hide Last Row
+              </label>
+            </div>
+          </div>
+        </div>
+        <button type="button" name="reset-defaults"
+          class="btn btn-flex btn-primary mt-5 ml-2"
+          aria-label="Reset Button"
+          style="min-width: 12rem">
+          <i class="mdib mdib-close mdib-24px md-white mr-1"></i>
+          Reset
+        </button>
+      </form>
+    </div>
+    <!-- main content -->
+    <div class="bmd-layout-content">
+      <div class="raw_container" style="padding-right: 0px; padding-left: 0px;">
+        <div id="jg_customizer" ></div>
+      </div>
+    </div>
+  </nav>
+  <!-- [INFO   ] [j1.gallery_customizer.html         ] [END: Drawer|Form] -->
+</div>
+
+
+

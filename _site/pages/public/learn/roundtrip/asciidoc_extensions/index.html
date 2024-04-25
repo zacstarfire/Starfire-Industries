@@ -1,0 +1,2563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [INFO   ] [j1.layout.default.html                ] [ page generated: 2024-04-25 13:45:20 +0200 ] -->
+  <!-- [INFO   ] [j1.layout.default.html                ] [ environment detected as: development ] -->
+  <!-- [INFO   ] [j1.layout.default.html                ] [ version detected as: 2024.2.1 ] -->
+  <head data-proofer-ignore>
+    <!-- [INFO   ] [j1.layout.default.html                ] [ call default_writer for region: 'head' ] -->
+    <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region head, layout: page ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ start meta-data processing: place meta tags (taken from site config|page frontmatter) ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ page|content encoding ] -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ added for MS Edge Browser ] -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ initial zoom level when the page is first loaded by the browser ] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ added keyords for backwards compatability ] -->
+    <meta name="keywords" content="open source, free, template, jekyll, jekyllone, web, sites, static, jamstack, bootstap
+">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ favicon for browser ] -->
+    <link rel="icon" type="image/ico" href="/assets/images/icons/j1/favicon.ico">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ favicon for the google crawler ] -->
+    <link rel="shortcut icon" href="/assets/images/icons/j1/favicon.ico">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Check robot settings from SITE configuration ] -->
+    <!-- [DEBUG  ] [j1.layout.meta_data_generator.html    ] [ Found SITE configuration robots_index: true ] -->
+    <!-- [DEBUG  ] [j1.layout.meta_data_generator.html    ] [ Found SITE configuration robots_follow: true ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Check robot settings from PAGE configuration ] -->
+    <!-- [DEBUG  ] [j1.layout.meta_data_generator.html    ] [ Found PAGE configuration robots_index: true ] -->
+    <!-- [DEBUG  ] [j1.layout.meta_data_generator.html    ] [ Found PAGE configuration robots_follow: true ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Place detected/overloaded meta tags for robots ] -->
+    <meta name="robots" content="index">
+    <meta name="robots" content="follow">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ meta tag for provider APIs: analytics ] -->
+    <meta name="analytics" content="false">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ meta tag for provider APIs: comments ] -->
+    <meta name="comments" content="false">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ meta tag for provider APIs: advertising ] -->
+    <meta name="advertising" content="false">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ meta tag for provider APIs: advertising ] -->
+    <meta name="translation" content="false">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ meta tag for provider APIs: youtube ] -->
+    <meta name="youtube" content="true">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ meta tag for provider APIs: vimeo ] -->
+    <meta name="vimeo" content="true">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ meta tag for privacy settings: personalization ] -->
+    <meta name="personalization" content="false">
+    <!-- Google fonts -->
+    <!-- link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" / -->
+    <!-- [INFO  ] [j1.layout.meta_data_generator.html    ] [ start SEO Optimization ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ PRELOAD of fonts: disabled ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Consider! PRELOAD primary used fonts to prioritize fetching ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ PRELOAD of css: disabled ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Consider! PRELOAD primary used css files to prioritize fetching ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ PRELOAD of js: disabled ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Consider! PRELOAD primary used js files to prioritize fetching ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ PRELOAD of images: disabled ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Consider! PRELOAD primary|globally used image files to prioritize fetching ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ Gratulations! PRECONNECT of remote URLs: enabled ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ request PRECONNECT of 3rd party origins to speed up remote connections ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ establish early connection: https://bootswatch.com ] -->
+    <link rel="dns-prefetch" href="https://bootswatch.com">
+    <link rel="preconnect" href="https://bootswatch.com">
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ add J1 SEO Tags ] -->
+    <!-- Begin J1 SEO tags -->
+    <meta name="generator" content="Jekyll v4.3.3">
+    <meta name="builder" content="J1 Template v2024.2.1">
+    <title>Extensions - Enhance Asciidoc Markup Language</title>
+    <meta property="og:title" content="Extensions - Enhance Asciidoc Markup Language">
+    <meta name="author" content="Juergen Adams">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="J1 Template implements some handy Ruby-based enhancements for the markup language Asciidoc. Markup extensions for is a unique feature of Jekyll One compared to other Jekyll themes and templates.">
+    <meta property="og:description" content="J1 Template implements some handy Ruby-based enhancements for the markup language Asciidoc. Markup extensions for is a unique feature of Jekyll One compared to other Jekyll themes and templates.">
+    <meta property="twitter:description" content="J1 Template implements some handy Ruby-based enhancements for the markup language Asciidoc. Markup extensions for is a unique feature of Jekyll One compared to other Jekyll themes and templates.">
+    <meta property="og:url" content="http://localhost:30000/pages/public/learn/roundtrip/asciidoc_extensions/">
+    <meta property="og:site_name" content="J1 Starter">
+    <meta property="og:image" content="http://localhost:30000/assets/images/pages/roundtrip/puzzle-1920x1280-bw.jpg">
+    <meta property="og:image:height" content="1280">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2023-09-01T00:00:00+02:00">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="http://localhost:30000/assets/images/pages/roundtrip/puzzle-1920x1280-bw.jpg">
+    <meta property="twitter:title" content="Extensions">
+    <meta name="twitter:site" content="http://localhost:30000/pages/public/learn/roundtrip/asciidoc_extensions/">
+    <meta name="twitter:creator" content="@Juergen Adams">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Juergen Adams","url":"https://jekyll.one/"},"dateModified":"2024-04-25T13:47:01+02:00","datePublished":"2023-09-01T00:00:00+02:00","description":"J1 Template implements some handy Ruby-based enhancements for the markup language Asciidoc. Markup extensions for is a unique feature of Jekyll One compared to other Jekyll themes and templates.","headline":"Extensions","image":{"width":1920,"height":1280,"url":"http://localhost:30000/assets/images/pages/roundtrip/puzzle-1920x1280-bw.jpg","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:30000/pages/public/learn/roundtrip/asciidoc_extensions/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:30000/assets/images/icons/j1/j1-512x512.png"},"name":"Juergen Adams"},"url":"http://localhost:30000/pages/public/learn/roundtrip/asciidoc_extensions/"}
+    </script>
+    <!-- End J1 SEO tags -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ end SEO Optimization ] -->
+    <!-- [INFO   ] [j1.layout.meta_data_generator.html    ] [ end meta-data processing ] -->
+    <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+    <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region head, layout: page ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ start processing region: head, layout: page ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place css files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/core/css/themes/unolight/bootstrap.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place css files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/core/css/icon-fonts/mdib.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place css files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/core/css/vendor.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: core ] -->
+    <script src="/assets/themes/j1/adapter/js/j1.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/jquery/js/jquery.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/jquery/js/extensions/hasClass.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/jquery/js/extensions/removeClass.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/popper/js/popper.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module J1 Theme Core ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: core ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/core/js/template.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: bs5 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Bootstrap JS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: bs5 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module Bootstrap JS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: bs5 ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/bootstrap/js/bootstrap.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: speak2me ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module speak2me ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: speak2me ] -->
+    <script defer src="/assets/themes/j1/adapter/js/speak2me.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: bmd ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: ga-opt-in ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module GA OptIn ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: ga-opt-in ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module GA OptIn ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: ga-opt-in ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/gtag-opt-in/js/gtag-opt-in.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: logger ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module J1 Logger ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: logger ] -->
+    <script src="/assets/themes/j1/adapter/js/logger.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module J1 Logger ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: logger ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/log4javascript/js/log4javascript.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: backstretch ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Backstretch ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: backstretch ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module Backstretch ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: backstretch ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/backstretch/js/backstretch.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: attic ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Attic ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: attic ] -->
+    <script src="/assets/themes/j1/adapter/js/attic.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: navigator ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Navigator ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: navigator ] -->
+    <script src="/assets/themes/j1/adapter/js/navigator.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: mmenu ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module MMenu ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place css files for resource ID: mmenu ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/mmenuLight/css/mmenu-light.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module MMenu ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place css files for resource ID: mmenu ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/mmenuLight/css/theme/uno/mmenu.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module MMenu ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: mmenu ] -->
+    <script defer src="/assets/themes/j1/adapter/js/mmenu.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module MMenu ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: mmenu ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/mmenuLight/js/mmenu.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: themes ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Themes ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: themes ] -->
+    <script src="/assets/themes/j1/adapter/js/themes.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: toccer ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, Module Toccer ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, place general file resources for resource_settings.id: toccer ] -->
+    <script src="/assets/themes/j1/adapter/js/toccer.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: cookieConsent ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 CookieConsent ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: cookieConsent ] -->
+    <script src="/assets/themes/j1/adapter/js/cookieConsent.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 CookieConsent ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: cookieConsent ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/cookieConsent/js/cookieConsent.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place css files for resource ID: lunr ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/lunr/css/j1.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: lunr ] -->
+    <script src="/assets/themes/j1/adapter/js/lunr.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module Lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: lunr ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/lunr/js/lunr.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module Lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: lunr ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/lunr/js/mustache.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module Lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: lunr ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/lunr/js/dateformat.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module Lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: lunr ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/lunr/js/uri.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all Module Lunr ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout all, place js files for resource ID: lunr ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/lunr/js/j1.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: fab ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 Floating Action Buttons ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: fab ] -->
+    <script defer src="/assets/themes/j1/adapter/js/fab.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 Floating Action Buttons ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: fab ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/fab/js/cash.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 Floating Action Buttons ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: fab ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/fab/js/fab.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: jquery-ui ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: theme_switcher ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module Theme Switcher ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: theme_switcher ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module Theme Switcher ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: theme_switcher ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/themeSwitcher/js/switcher.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: rtable ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 Responsive Tables ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: rtable ] -->
+    <script src="/assets/themes/j1/adapter/js/rtable.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 Responsive Tables ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: rtable ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script src="/assets/themes/j1/modules/rtable/js/rtable.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: asciidoctor ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, Module J1 Asciidoctor ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, place general file resources for resource_settings.id: asciidoctor ] -->
+    <script defer src="/assets/themes/j1/adapter/js/asciidoctor.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: rtextresizer ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: msDropdown ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 MsDropdown ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: msDropdown ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/msDropdown/css/themes/uno/msDropdown.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 MsDropdown ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: msDropdown ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 MsDropdown ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: msDropdown ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/msDropdown/js/msDropdown.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: translator ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 Translator ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: translator ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/translator/css/translator.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 Translator ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: translator ] -->
+    <script defer src="/assets/themes/j1/adapter/js/translator.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 Translator ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: translator ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/translator/js/translator.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: analytics ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module Analytics ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: analytics ] -->
+    <script defer src="/assets/themes/j1/adapter/js/analytics.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: CustomModule ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: customFunctions ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: rouge ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, Module Rouge Highlighter Themes ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, place general file resources for resource_settings.id: rouge ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/rouge/css/base16/theme.css">
+    <script defer src="/assets/themes/j1/adapter/js/rouge.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: animate ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module AnimateCSS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place css files for resource ID: animate ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/core/css/animate.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module AnimateCSS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: animate ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: iframer ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: lightbox ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, Module Lightbox V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, place css files for resource ID: lightbox ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/lightbox/css/lightbox.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, Module Lightbox V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, place css files for resource ID: lightbox ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/lightbox/css/theme/uno.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, Module Lightbox V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, place general file resources for resource_settings.id: lightbox ] -->
+    <script defer src="/assets/themes/j1/adapter/js/lightbox.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive Module Lightbox V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout blog_archive, place js files for resource ID: lightbox ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightbox/js/lightbox.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: iconify ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, Module Iconify framework ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, place css files for resource ID: iconify ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/core/css/icon-fonts/iconify.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, Module Iconify framework ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive, place general file resources for resource_settings.id: iconify ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: blog_archive Module Iconify framework ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout blog_archive, place js files for resource ID: iconify ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/iconifyAPI/js/iconify.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: Module Algolia API ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: clipboard ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 Clipboard ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: clipboard ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/clipboard/css/theme/uno.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 Clipboard ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: clipboard ] -->
+    <script defer src="/assets/themes/j1/adapter/js/clipboard.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 Clipboard ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: clipboard ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/clipboard/js/clipboard.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: carousel ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: masterslider ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: mastersliderpro ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: gallery ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, Module J1 Gallery ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, place css files for resource ID: gallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/justifiedGallery/css/justifiedGallery.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, Module J1 Gallery ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, place css files for resource ID: gallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/justifiedGallery/css/theme/uno.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, Module J1 Gallery ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app, place general file resources for resource_settings.id: gallery ] -->
+    <script defer src="/assets/themes/j1/adapter/js/gallery.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: app Module J1 Gallery ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout app, place js files for resource ID: gallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/justifiedGallery/js/justifiedGallery.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: lightgallery ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/lightGallery/css/lightgallery-bundle.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/lightGallery/css/lg-transitions.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/lightGallery/css/themes/uno/uno.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: lightgallery ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/parser/webvtt/parser.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-autoplay.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-comment.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-fullscreen.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-hash.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-medium-zoom.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-pager.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-rotate.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-share.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-thumbnail.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-video.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-vimeo-thumbnail.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/plugins/lg-zoom.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module J1 lightGallery V2 ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: lightgallery ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/lightGallery/js/lightgallery.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: videojs ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/videojs/css/video.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/videojs/css/plugins/zoom.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/videojs/css/themes/city.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/videojs/css/themes/fantasy.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/videojs/css/themes/forest.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/videojs/css/themes/sea.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/videojs/css/themes/uno.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: videojs ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/videojs/js/video.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/videojs/js/plugins/dm/dailymotion.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/videojs/js/plugins/vm/vimeo.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/videojs/js/plugins/wt/wistia.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/videojs/js/plugins/yt/youtube.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module VideoJS ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: videojs ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/videojs/js/plugins/zoom.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: tiktokplayer ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: dailymotionplayer ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: vimeoplayer ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: wistiaplayer ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: rangeslider ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: scroller ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: advertising ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: comments ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: require ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: waves ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: js-cookie ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: particles ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: slick ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: masonry ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: iconpicker ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: theme_toggler ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module Theme Toggler ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: theme_toggler ] -->
+    <script defer src="/assets/themes/j1/adapter/js/themeToggler.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: lazy_loader ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, Module lazyCSSLoader ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: all, place general file resources for resource_settings.id: lazy_loader ] -->
+    <script defer src="/assets/themes/j1/adapter/js/lazyLoader.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: dropdowns ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: slim_select ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module slimSelect ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place css files for resource ID: slim_select ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <link rel="stylesheet" href="/assets/themes/j1/modules/slimSelect/css/select.css">
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, Module slimSelect ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post, place general file resources for resource_settings.id: slim_select ] -->
+    <script defer src="/assets/themes/j1/adapter/js/slimSelect.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout: post Module slimSelect ] -->
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ layout post, place js files for resource ID: slim_select ] -->
+    <!-- [ERROR  ] [j1.procedures.select_location.proc    ] [ no valid resource locator for LOCAL found ] -->
+    <!-- [WARN   ] [j1.procedures.select_location.proc    ] [ fallback location LOCAL selected ] -->
+    <script defer src="/assets/themes/j1/modules/slimSelect/js/select.js"></script>
+    <!-- [INFO   ] [j1.layout.resource_writer.proc        ] [ placement for all data_keys finished ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: chatbot ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: docsearch ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ process resource: gemini ] -->
+    <!-- [INFO   ] [j1.layout_resource_generator.html     ] [ end processing ] -->
+    <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+    <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ placement for all lane items finished ] -->
+    <!-- [DEBUG  ] [j1.layout.default_writer.proc         ] [ reset all lane items ] -->
+    <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ end default_writer for region: 'head' ] -->
+  </head>
+  <body class="nomathjax">
+    <!-- [INFO   ] [j1.layout.default.html                ] [ check if a noscript page is enabled ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ noscript page is enabled: false ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ start page processing for region: 'body' ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ place wrapper to prevent "DOM flicker" ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ make page hidden (suppress flicker) ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ suppress page overflows (overflow: hidden) ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ hide page (display: none) on id "no_flicker" ] -->
+    <div id="no_flicker" style="overflow: hidden; display: none">
+      <!-- [INFO   ] [j1.layout.default.html                ] [ call default_writer for region: 'body-navigation' ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region body-navigation, layout: page ] -->
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ start processing: mmenu ] -->
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place mmenu container navigator_nav_mmenu for AJAX load ] -->
+      <nav id="navigator_nav_mmenu"></nav>
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place mmenu container navigator_toc_mmenu for AJAX load ] -->
+      <nav id="navigator_toc_mmenu"></nav>
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place mmenu container navigator_sidebar_mmenu for AJAX load ] -->
+      <nav id="navigator_sidebar_mmenu"></nav>
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ start processing: navigation ] -->
+      <nav id="navigator_nav_navbar" class="navbar navigator navbar-expand-lg navbar-default d-flex  light navbar-fixed navbar-transparent">
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ start processing: main menue ] -->
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place brand to the: right ] -->
+        <a href="#" id="navbar-brand" class="navbar-brand link-no-decoration"> <img src="/assets/images/icons/j1/j1-512x512.png" style="height: 48px !important;" alt="Jekyll One"></a>
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place mobile menu button to the: left ] -->
+        <button id="mmenu-button" type="button" class="navigator navbar-toggler animated fadeIn" data-bs-toggle="collapse" data-bs-target="#navigator_nav_menu" aria-controls="navigator_nav_menu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="mdib mdib-menu mdib-36px"></i>
+        </button>
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ start processing: nav bar ] -->
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place nav menu container for AJAX load (desktop) ] -->
+        <div id="navigator_nav_menu" class="collapse"></div>
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ check for quicklinks ] -->
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place container for: quicklinks ] -->
+        <div id="navigator_nav_quicklinks" class="quicklink-nav collapse navbar-collapse justify-content-end pr-4"></div>
+      </nav>
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ check for: authclient ] -->
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ authclient enabled: false ] -->
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ place container for: authclient ] -->
+      <div id="authclient_modals" class="authclient_modals"></div>
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ end processing: auth_client ] -->
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/navigator/generator.html ] [ end processing: navigation ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region body-navigation, layout: page ] -->
+      <!-- [INFO   ] [_includes/themes/j1/modules/searcher/generator.html ] [ check for topsearch ] -->
+      <!-- [INFO   ] [~/_includes/themes/j1/modules/searcher/generator.html ] [ start processing: topsearch ] -->
+      <!-- [INFO   ] [~/includes/themes/j1/modules/searcher/procedures/topsearch.proc ] [ PLACE: modal top search: searchModal ] -->
+      <!-- Modal TopSearch -->
+      <div id="searchModal" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="searchModal" aria-hidden="true">
+        <!-- Modal Container -->
+        <div class="modal-dialog modal-top modal-frame role=" document>
+          <!-- MODAL Content -->
+          <div class="modal-content">
+            <!-- MODAL Header -->
+            <div class="modal-header">
+              <h2 id="searchModalLabel" class="modal-title fs-5">QuickSearch</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- MODAL Body -->
+            <div class="modal-body">
+              <!-- SEARCH History -->
+              <div id="search_history_select_wrapper" style="display: none; margin-left: 2.5rem; margin-right: 5.125rem"></div>
+              <!-- END SEARCH History -->
+              <!-- SEARCH Container -->
+              <div id="navigator_nav_topsearch" class="top-search mr-4">
+                <!-- INPUT Form -->
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="mdib mdib-magnify mdib-2x mb-2" style="color: var(--bs-gray-900)"></i></span>
+                    <input id="search-query" class="form-control" type="text" name="q" placeholder="Your search expression" autocomplete="off">
+                    <span id="clear-topsearch" class="form-clear form-clear-searcher d-none" style="display: none; cursor: pointer; margin-top: 1.15rem"> <i class="mdib mdib-format-clear mdib-24px" style="color: var(--bs-gray-900)"></i> </span>
+                    <span id="send-to-history" style="display: none; cursor: pointer; margin-top: 1.15rem; margin-left: .75rem"> <i class="mdib mdib-send mdib-24px" style="color: var(--bs-gray-900)"></i> </span>
+                  </div>
+                </div>
+                <!-- END INPUT Form -->
+                <!-- SEARCH Results -->
+                <div class="search-results hide-scrollbar mt-5">
+                  <div id="search-results" style="display: none"></div>
+                </div>
+                <!-- END SEARCH Results -->
+              </div>
+              <!-- END SEARCH Container -->
+            </div>
+            <!-- END MODAL Body -->
+          </div>
+          <!-- END MODAL Content -->
+        </div>
+        <!-- END Modal Container -->
+      </div>
+      <!-- END Modal TopSearch -->
+      <!-- [INFO   ] [~/includes/themes/j1/modules/searcher/procedures/topsearch.proc ] [ END modal top search: searchModal] -->
+      <!-- [INFO   ] [~/includes/themes/j1/modules/searcher/procedures/topsearch.proc ] [ PLACE: mustache template ] -->
+      <!-- MUSTACHE Template -->
+      <script id="search-results-template" type="text/mustache">
+        <ul style="list-style: none; margin-left: .5rem; margin-right: 4.25rem">
+        {{#docs}}
+          <li>
+            <h4 class="result-item"> <a class="link-no-decoration" href="{{url}}" target="_blank">{{title}} · {{tagline}}</a> </h4>
+            <p class="result-item-text small text-muted mt-2 mb-0">
+              <i class="mdib mdib-calendar-blank mdib-18px mr-1"></i>{{displaydate}}
+            </p>
+            <p class="result-item-text">{{description}}</p>
+            <p class="result-item-text small text-muted mb-3">
+              <i class="mdib mdib-tag-text-outline mdib-18px mr-1"></i><span class="sr-categories">{{#categories}} {{.}} · {{/categories}}</span>
+              <i class="mdib mdib-tag mdib-18px mr-1 ml-2"></i><span class="sr-tags">{{#tags}} {{.}} · {{/tags}}</span>
+            </p>
+          </li>
+        {{/docs}}
+        </ul>
+      </script>
+      <!-- END MUSTACHE Template -->
+      <!-- [INFO   ] [~/includes/themes/j1/modules/searcher/procedures/topsearch.proc ] [ END: mustache template ] -->
+      <!-- [INFO   ] [~/includes/themes/j1/modules/searcher/procedures/topsearch.proc   ] [ END: processing: top search ] -->
+      <!-- [INFO   ] _includes/themes/j1/modules/searcher/generator.html ] [ end processing: topsearch ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ placement for all lane items finished ] -->
+      <!-- [DEBUG  ] [j1.layout.default_writer.proc         ] [ reset all lane items ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing ] -->
+      <!-- [INFO   ] [j1.layout.default.html                ] [ end processing default_writer for region: 'body-navigation' ] -->
+      <!-- [INFO   ] [j1.layout.default.html                ] [ place content inherited by layout: page ] -->
+      <!-- [INFO   ]  [j1.layout.page.html                   ] [ start content processing ] -->
+      <!-- [INFO   ] [j1.layout.page.html                    ] [ call default_writer for region: 'body-header' ] -->
+      <header id="header">
+        <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region body-header, layout: page ] -->
+        <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ load page specific header data from yaml data file ] -->
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/attics/generator.html ] [ attic enabled: true ] -->
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/attics/generator.html ] [ attic enabled for layout: page ] -->
+        <!-- [INFO   ] [~/_includes/themes/j1/modules/attics/generator.html ] [ place attic detected: attic_page ] -->
+        <!-- div id="attic_page" class="attic notranslate" -->
+        <div id="attic_page" class="attic ">
+          <div class="container textOverlay" style="display: none">
+          </div>
+          <div class="attic-caption" style="display: none"></div>
+        </div>
+        <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+        <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+        <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ placement for all lane items finished ] -->
+        <!-- [DEBUG  ] [j1.layout.default_writer.proc         ] [ reset all lane items ] -->
+        <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing ] -->
+      </header>
+      <!-- [INFO   ] [j1.layout.page.html                    ] [ end default_writer processing for region: 'body-header' ] -->
+      <!-- [INFO   ] [j1.layout.page.html                    ] [ call content_writer for region: 'body-main' ] -->
+      <div id="content" class="container mb-5">
+        <!-- [INFO   ] [j1.layout.content_writer.proc         ] [ start processing: load CONTENT portion for layout: page ] -->
+        <!-- [INFO   ] [j1.layout.content_writer.proc         ] [ load region 'body-main' for layout: page ] -->
+        <!-- [INFO   ] [j1.layout.content_generator_page.html ] [ start main for full page ] -->
+        <main id="main-content" class="r-text-300 js-toc-content">
+          <!-- [INFO   ] [j1.layout.content_generator_page.html ] [ begin place content ] -->
+          <div class="paragraph dropcap">
+            <p>J1 Template implements some handy enhancements for the markup language
+              Asciidoc. Providing extensions for a Jekyll theme is a unique feature
+              of Jekyll One template system compared to other Jekyll themes and templates.</p>
+          </div>
+          <div class="paragraph mb-4">
+            <p>All already implemented Asciidoctor extensions you’ll find below.</p>
+          </div>
+          <div class="admonitionblock tip">
+            <table>
+              <tr>
+                <td class="icon">
+                  <i class="fa icon-tip" title="Tip"></i>
+                </td>
+                <td class="content">
+                  <div class="paragraph">
+                    <p>Most extensions are based on well-documented examples from the
+                      <a href="//github.com/asciidoctor/asciidoctor-extensions-lab/" target="_blank" rel="noopener">Asciidoctor Extensions Lab</a>.
+                      To create Asciidoc extensions on your own, it is highly recommended to read the
+                      <a href="//asciidoctor.org/docs/user-manual/#extensions" target="_blank" rel="noopener">Extensions Section</a>
+                      in the Asciidoctor user manual.</p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="paragraph mt-4">
+            <p>Extensions for the markup language Asciidoc were made especially for documents
+              of the Jekyll content type <strong>page</strong>, but can be used for <strong>posts</strong> or <strong>collections</strong>
+              as well.</p>
+          </div>
+          <div class="paragraph">
+            <p><i class="mdi mdi-24px md-gray mt-5 mr-2 mdi-clock-time-five-outline"></i>
+              <strong>5-10 Minutes</strong> to read</p>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="asciidoc-result-extension">Asciidoc Result Extension</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>J1 Template adds a simple Javascript based functionality for the
+                  <strong>View Result Extension</strong> to any listing block element <code>listingblock</code>. The
+                  extension adds an interactive toggle button <code>VIEW</code> to the output of a listing
+                  block placed to the top right of the example box.</p>
+              </div>
+              <div class="paragraph mb-4">
+                <p>If a result block <code>[.result]</code> is placed under a listing block, clicking the
+                  toggle button <strong>view</strong> <code>VIEW</code> displays or hide the content given by the
+                  result block.</p>
+              </div>
+              <div class="admonitionblock tip mb-4">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-tip" title="Tip"></i>
+                    </td>
+                    <td class="content">
+                      <div class="paragraph">
+                        <p>The <strong>View Result Extension</strong> is quite helpful for sections discussing
+                          code elements.</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="paragraph">
+                <p>This example place a button <strong>VIEW</strong> top right of the example box.</p>
+              </div>
+              <div class="listingblock noclip">
+                <div class="title">VIEW extension</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">* displayed always</code></pre>
+                </div>
+              </div>
+              <div class="exampleblock result">
+                <div class="content">
+                  <div class="literalblock">
+                    <div class="content">
+                      <pre>displayed till clicked, but closed on second click (toggle)</pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="asciidoc-admonitions">Asciidoc Admonitions</h2>
+            <div class="sectionbody">
+              <div class="paragraph " mb-5>
+                <p>Admonition blocks draw the reader to certain statements by labeling
+                  them as priorities displayed in separate blocks. These types of information
+                  blocks are called <strong>admonitions</strong>. The AsciiDoc markuplanguage provides five
+                  block types shown by the following examples.</p>
+              </div>
+              <table class="tableblock frame-all grid-all stretch rtable mt-3 mb-4">
+                <caption class="title">Table 1. Admonition labels</caption>
+                <colgroup>
+                  <col style="width: 25%;">
+                  <col style="width: 75%;">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tableblock halign-left valign-top">Name</th>
+                    <th class="tableblock halign-left valign-top">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>NOTE</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>Additional details on the currently discussed topic that may help the
+                            reader to understand the following content better.</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>TIP</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>Provides facts that may help the reader <strong>to go further</strong> or points to
+                            additional <strong>options</strong> available that can be used.</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>IMPORTANT</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>Emphasis on what is currently being discussed and provide facts that
+                            should be remembered.</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>WARNING</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>instructs readers of potential danger, harm, or consequences for the
+                            wrong usage.</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>CAUTION</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>Advise the reader to act carefully and point to potential risks or
+                            trippings.</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="admonitionblock note">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-note" title="Note"></i>
+                    </td>
+                    <td class="content">
+                      <div class="paragraph">
+                        <p>All colors for all default admonition blocks set to the standard
+                          color set. Find available block types and their colors below.</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="paragraph " mr-4>
+                <p>When you want to call attention to a single paragraph, start the first
+                  line of the paragraph with the label you want to use. The label must be
+                  uppercase and followed by a colon <code>:</code>.</p>
+              </div>
+              <div class="listingblock">
+                <div class="title">Admonition paragraph syntax</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="apib"><span class="nv">NOTE</span><span class="p">: </span><span class="s">Followed by the paragraph text</span></code></pre>
+                </div>
+              </div>
+              <div class="paragraph">
+                <p>Set the label as a style attribute on a block when you want to apply an
+                  admonition to complex content. The next example shows that admonition
+                  labels are commonly set on example blocks. The label must be uppercase
+                  when set as an attribute on a block.</p>
+              </div>
+              <div class="listingblock">
+                <div class="title">Admonition block syntax</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="apib"><span class="gu">[NOTE]
+====
+</span>The block text (multiline)
+====</code></pre>
+                </div>
+              </div>
+              <div class="paragraph">
+                <p>To add an <strong>additional</strong> title element on an admonition, place a dot <code>.</code>
+                  directly followed by the text of the title.</p>
+              </div>
+              <div class="listingblock">
+                <div class="title">Admonition block syntax + title</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="apib">.title text
+<span class="gu">[NOTE]
+====
+</span>The block text (multiline)
+====</code></pre>
+                </div>
+              </div>
+              <div class="admonitionblock note">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-note" title="Note"></i>
+                    </td>
+                    <td class="content">
+                      <div class="title">NOTE block</div>
+                      <div class="paragraph">
+                        <p>Icon background-color: indigo</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="admonitionblock tip">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-tip" title="Tip"></i>
+                    </td>
+                    <td class="content">
+                      <div class="title">TIP block</div>
+                      <div class="paragraph">
+                        <p>Icon background-color: green</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="admonitionblock important">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-important" title="Important"></i>
+                    </td>
+                    <td class="content">
+                      <div class="title">IMPORTANT block</div>
+                      <div class="paragraph">
+                        <p>Icon background-color: orange</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="admonitionblock warning">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-warning" title="Warning"></i>
+                    </td>
+                    <td class="content">
+                      <div class="title">WARNING block</div>
+                      <div class="paragraph">
+                        <p>Icon background-color: yellow</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="admonitionblock caution">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-caution" title="Caution"></i>
+                    </td>
+                    <td class="content">
+                      <div class="title">CAUTION block</div>
+                      <div class="paragraph">
+                        <p>Icon background-color: red</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="asciidoc-quote-elements">Asciidoc Quote elements</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>Quote elements cite a passage or phrase from a book, speech, or the like,
+                  such as authority, illustration, etc. the quote elements are controlled
+                  by the following <strong>attributes</strong>:</p>
+              </div>
+              <div class="dlist">
+                <dl>
+                  <dt class="hdlist1">attribution</dt>
+                  <dd>
+                    <p>The attribute <code>attribution</code> specifies the name of <strong>who</strong> the content
+                      is attributed to.</p>
+                  </dd>
+                  <dt class="hdlist1">information</dt>
+                  <dd>
+                    <p>The attribute <code>information</code> is optional and specifies the general or
+                      bibliographical information of the book, speech, play, poem, etc.,
+                      where the content was <strong>drawn from</strong>.</p>
+                  </dd>
+                </dl>
+              </div>
+              <div class="sect2 mt-4">
+                <h3 id="quoted-paragraph">Quoted paragraph</h3>
+                <div class="paragraph">
+                  <p>If the text element to be quoted is a single line or paragraph, the attribute
+                    list quote, attribution, and information <code>[quote, attribution, information]</code>
+                    can be placed directly <strong>above</strong> the text.</p>
+                </div>
+                <div class="listingblock">
+                  <div class="title">Synopsis</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="text">[quote, attribution, information]
+Quote or excerpt text</code></pre>
+                  </div>
+                </div>
+                <div class="paragraph">
+                  <p>A <strong>single</strong> paragraph can be turned into a blockquote by:</p>
+                </div>
+                <div class="olist arabic">
+                  <ol class="arabic">
+                    <li>
+                      <p>surrounding the quoted paragraph with double-quotes <code>"</code></p>
+                    </li>
+                    <li>
+                      <p>adding an optional attribution <code>attribution</code>, prefixed by two
+                        dashes <code>--</code> <strong>below</strong> the quoted text</p>
+                    </li>
+                  </ol>
+                </div>
+                <div class="listingblock mt-3 mb-5">
+                  <div class="title">Synopsis</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="text">"quoted paragraph"
+-- attribution</code></pre>
+                  </div>
+                </div>
+                <div class="quoteblock mt-5">
+                  <blockquote>
+                    Don’t do stupid things twice. The selection is too big for that.
+                  </blockquote>
+                  <div class="attribution">
+                    — Jean-Paul Sartre
+                  </div>
+                </div>
+              </div>
+              <div class="sect2 mt-4">
+                <h3 id="quote-block">Quote block</h3>
+                <div class="paragraph">
+                  <p>If the text element, or excerpt, to be quoted is more than one paragraph,
+                    place the multine text between delimiter lines consisting of four
+                    <strong>underscores</strong> <code><em>__</em></code>.</p>
+                </div>
+                <div class="listingblock mt-3 mb-4">
+                  <div class="title">Synopsis</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="text">[quote, attribution]
+____
+paragraph text (multiline)
+____</code></pre>
+                  </div>
+                </div>
+                <div class="paragraph mt-4 mb-4">
+                  <p>Example of a quoted <strong>block</strong>.</p>
+                </div>
+                <div class="quoteblock">
+                  <blockquote>
+                    <div class="paragraph">
+                      <p>Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh?<br>
+                        That’s what I’m on about! Did you see him repressing me?</p>
+                    </div>
+                    <div class="paragraph">
+                      <p>You saw him, Didn’t you?</p>
+                    </div>
+                  </blockquote>
+                  <div class="attribution">
+                    — Monty Python and the Holy Grail
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="lightboxes">Lightboxes</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>To make the use of the built-in lightbox easier, the J1 Template offers an
+                  Asciidoc extension: the lightBox block <strong>macro</strong>. The lightbox block macro
+                  <code>lightbox::</code> embeds one or more images into the output document and puts
+                  the default lightbox for J1 automatically on.</p>
+              </div>
+              <div class="paragraph">
+                <p>The images width and additional a addtional caption text <code>caption text</code>
+                  and CSS styles are configurable for all images using this macro.</p>
+              </div>
+              <div class="listingblock noclip">
+                <div class="title">Lightbox block for single images</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">.Block title
+lightbox::&lt;block_id&gt;[ &lt;images_width&gt;, &lt;images_data_id&gt;, &lt;role="CSS styles"&gt; ]</code></pre>
+                </div>
+              </div>
+              <div class="listingblock noclip">
+                <div class="title">Lightbox block for image groups</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">.Block title
+lightbox::&lt;block_id&gt;[ &lt;images_width&gt;, &lt;images_data_id&gt;, &lt;group_name&gt;, &lt;role="CSS styles"&gt; ]</code></pre>
+                </div>
+              </div>
+              <div class="admonitionblock note">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-note" title="Note"></i>
+                    </td>
+                    <td class="content">
+                      <div class="paragraph">
+                        <p>The role parameter <code>role</code> to specify additional CSS styles is for all
+                          lightbox macros <code>lightbox::</code> <strong>optional</strong> and can be omitted.</p>
+                      </div>
+                      <div class="paragraph">
+                        <p>For a lightbox block, images are placed in the output document
+                          without any other scaling than in width - they are placed using simple
+                          HTML img tags <code>&lt;img&gt;</code>. This technique is fine for images that are even
+                          in size. For images in different sizes, a gallery should be used as a
+                          J1 Gallery to rearrange images and make them fit at their best for the
+                          available space.</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="sect2 mt-5">
+                <h3 id="standalone-images">Standalone Images</h3>
+                <div class="paragraph">
+                  <p>For your convenience and better readability, the image data should be
+                    defined as Asciidoc attributes. The image data is given as a string
+                    of data pairs:</p>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Paired attributes</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">"path/to/image-1, image-caption-1, ..."</code></pre>
+                  </div>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Example of an data attribute for a lightbox block</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">:data-images: "pages/image-1.jpg, Description 1, "pages/image-2.jpg, Description 2"</code></pre>
+                  </div>
+                </div>
+                <div class="paragraph">
+                  <p>The base path for all image-related data is a configuration placed in
+                    the side-wide project configuration <strong>_config.yml</strong> and points per default
+                    to images path <code>/assets/images</code>. The base path is automatically added to
+                    each image. If you want to use the default asset path for images, a relative
+                    path needs to be given like path-to-image <code>path/to/image</code>.</p>
+                </div>
+                <div class="admonitionblock warning">
+                  <table>
+                    <tr>
+                      <td class="icon">
+                        <i class="fa icon-warning" title="Warning"></i>
+                      </td>
+                      <td class="content">
+                        <div class="paragraph">
+                          <p>If an absolute path <code>/path/to/image</code> is configured, the base
+                            path gets ignored. This is the default behavior of the Asciidoc Markup
+                            processor. If an absolute path is given, the full path to the images
+                            used has to be configured.</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="paragraph">
+                  <p>The group parameter <code>group</code> for the lightbox block <code>lightbox::</code> is optional.
+                    If <strong>no</strong> group parameter is given for a block, the related images are treated
+                    as standalone.</p>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Lightbox block for standalone images</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">lightbox::&lt;block_id&gt;[ 800, {&lt;data-images-id&gt;} ]</code></pre>
+                  </div>
+                </div>
+                <div class="mt-3 mb-3">
+                  <div class="lightbox-title">Lightbox block for standalone images</div>
+                  <div id="lb-images-standalone" class="lightbox-block imageblock"> 
+                    <div class="content" style="margin-bottom: 1.75rem;">
+                      <a class="notoc link-no-decoration" href="/assets/images/modules/gallery/old_times/image_02.jpg" data-lightbox="assets/images/modules/gallery/old_times/image_02.jpg" data-title="GrandPa's 80th Birthday">
+                        <img class="img-fluid" src="/assets/images/modules/gallery/old_times/image_02.jpg" alt="Lightbox block for standalone images" width="800">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sect2 mt-5">
+                <h3 id="grouped-images">Grouped Images</h3>
+                <div class="paragraph">
+                  <p>If more than a single image is given for a lightbox <code>lightbox::</code>, images
+                    can be <strong>grouped</strong> to enable a simple sliding functionality through
+                    related images. Enabling this function, the group option <code>group</code> needs to
+                    be configured for the block.</p>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Lightbox block for grouped images</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">lightbox::&lt;block_id&gt;[ 400, {&lt;data-images-group_id&gt;}, &lt;group_name&gt; ]</code></pre>
+                  </div>
+                </div>
+                <div class="mt-3 mb-3">
+                  <div class="lightbox-title">Lightbox block for grouped images</div>
+                  <div id="lb-images-group" class="lightbox-block imageblock"> 
+                    <div class="content" style="margin-bottom: 1.75rem;">
+                      <a class="notoc link-no-decoration" href="/assets/images/modules/gallery/old_times/image_03.jpg" data-lightbox="lb-images-group" data-title="GrandPa's annual journey">
+                        <img class="img-fluid" src="/assets/images/modules/gallery/old_times/image_03.jpg" alt="Lightbox block for grouped images" width="400">
+                      </a>
+                      <a class="notoc link-no-decoration" href="/assets/images/modules/gallery/old_times/image_04.jpg" data-lightbox="lb-images-group" data-title="GrandPa's annual journey">
+                        <img class="img-fluid" src="/assets/images/modules/gallery/old_times/image_04.jpg" alt="Lightbox block for grouped images" width="400">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="galleries">Galleries</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>JustifiedGallery, the default gallery for J1, is a great jQuery plugin to
+                  create responsive, infinite, and high-quality justified image galleries.
+                  J1 Template combines the Gallery with the lightboxes supported to enlarge
+                  the images of a gallery.</p>
+              </div>
+              <div class="paragraph">
+                <p>Pictures you’ve made are typically not even in size. Images may have the
+                  same resolution, but some are orientated landscapes, or others may be
+                  portrait. For that reason, a more powerful gallery is needed to create
+                  a so-called <strong>masonry grid layout</strong>. It works by placing elements in an
+                  optimal position based on available horizontal and vertical space.</p>
+              </div>
+              <div class="listingblock noclip">
+                <div class="title">Gallery macro for images and videos</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">.Gallery title
+gallery::&lt;gallery_id&gt;[role="&lt;additional CSS styles&gt;"]</code></pre>
+                </div>
+              </div>
+              <div class="mb-5">
+                <div class="gallery-title">Image Gallery</div>
+                <div id="jg_old_times_parent" class="gallery"></div>
+              </div>
+              <div class="mb-5">
+                <div class="gallery-title">Video Gallery</div>
+                <div id="jg_video_html5_parent" class="gallery"></div>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="country-flags">Country flags</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>Country flags are often used in the context of language-specific selections
+                  or for content related to a specific country. The use of country flags can
+                  make language selections or country indicators more visual to support your
+                  visitors by making a more meaningful presentation.</p>
+              </div>
+              <div class="paragraph">
+                <p>The J1 Template comes with full support of country flags for Asciidoc
+                  documents included.</p>
+              </div>
+              <div class="paragraph">
+                <p>Country flags can be used as inline icons by using the flag inline
+                  macro <code>flag:</code>:</p>
+              </div>
+              <div class="listingblock noclip">
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">flag:country[style, size, modifier]    <i class="conum" data-value="1"></i><b>(1)</b> <i class="conum" data-value="2"></i><b>(2)</b> <i class="conum" data-value="3"></i><b>(3)</b> <i class="conum" data-value="4"></i><b>(4)</b></code></pre>
+                </div>
+              </div>
+              <div class="colist arabic">
+                <table>
+                  <tr>
+                    <td>
+                      <i class="conum" data-value="1"></i><b>1</b>
+                    </td>
+                    <td>All <code>country</code> flags can be found on the preview page for
+                      <a href="//jekyll.one/pages/public/tools/previewer/country_flags/">country flags</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="conum" data-value="2"></i><b>2</b>
+                    </td>
+                    <td>The <code>style</code> attribute can be one of: <code>rectangle</code> or <code>squared</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="conum" data-value="3"></i><b>3</b>
+                    </td>
+                    <td>The <code>size</code> attribute can be one of: <code>xs</code>, <code>sm</code>, <code>md</code>, <code>lg</code>, <code>xl</code> (responsive)
+                      and <code>1x</code> to <code>10x</code> (proportional)</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="conum" data-value="4"></i><b>4</b>
+                    </td>
+                    <td>The <code>modifier</code> can be used to add individual CSS classes e.g. for
+                      BS styles for margin setting and other</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="listingblock noclip">
+                <div class="title">Click on button <code>VIEW</code> to see how it’s looks alike</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">flag:de[rectangle, 2x, ml-3 mr-2 mb-2] Germany (rectangle) +
+flag:de[squared, 2x, ml-3 mr-3 mb-2] Germany (square)</code></pre>
+                </div>
+              </div>
+              <div class="exampleblock result">
+                <div class="content">
+                  <div class="paragraph">
+                    <p><i class="flag-icon flag-icon-de rectangle size-2x ml-3 mr-2 mb-2"></i> Germany (rectangle)<br>
+                      <i class="flag-icon flag-icon-de squared size-2x ml-3 mr-3 mb-2"></i> Germany (square)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="paragraph">
+                <p>Flag Icons is a collection of all country flags in the SVG vector format.
+                  All icons can be automatically resized with no loss in display quality.</p>
+              </div>
+              <table class="tableblock frame-all grid-all stretch rtable mt-3">
+                <caption class="title">Table 2. Example of responsive flag sizes</caption>
+                <colgroup>
+                  <col style="width: 20%;">
+                  <col style="width: 30%;">
+                  <col style="width: 40%;">
+                  <col style="width: 10%;">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="tableblock halign-left valign-top">Size</th>
+                    <th class="tableblock halign-left valign-top">Style</th>
+                    <th class="tableblock halign-left valign-top">Markup</th>
+                    <th class="tableblock halign-center valign-top">Render</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>xs</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>rectangle</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="listingblock noclip">
+                          <div class="title">Germany</div>
+                          <div class="content">
+                            <pre class="rouge highlight"><code data-lang="adoc">flag:de[rectangle, xs]</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-center valign-top">
+                      <p class="tableblock"><i class="flag-icon flag-icon-de rectangle size-xs "></i></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>sm</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>rectangle</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="listingblock noclip">
+                          <div class="title">Germany</div>
+                          <div class="content">
+                            <pre class="rouge highlight"><code data-lang="adoc">flag:de[rectangle, sm]</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-center valign-top">
+                      <p class="tableblock"><i class="flag-icon flag-icon-de rectangle size-sm "></i></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>md</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>rectangle</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="listingblock noclip">
+                          <div class="title">Belgium</div>
+                          <div class="content">
+                            <pre class="rouge highlight"><code data-lang="adoc">flag:be[rectangle, md]</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-center valign-top">
+                      <p class="tableblock"><i class="flag-icon flag-icon-be rectangle size-md "></i></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>lg</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>rectangle</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="listingblock noclip">
+                          <div class="title">Denmark</div>
+                          <div class="content">
+                            <pre class="rouge highlight"><code data-lang="adoc">flag:dk[rectangle, lg]</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-center valign-top">
+                      <p class="tableblock"><i class="flag-icon flag-icon-dk rectangle size-lg "></i></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p><code>xl</code></p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="paragraph">
+                          <p>rectangle</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-left valign-top">
+                      <div class="content">
+                        <div class="listingblock noclip">
+                          <div class="title">Spain</div>
+                          <div class="content">
+                            <pre class="rouge highlight"><code data-lang="adoc">flag:es[rectangle, xl]</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tableblock halign-center valign-top">
+                      <p class="tableblock"><i class="flag-icon flag-icon-es rectangle size-xl "></i></p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="icon-fonts">Icon Fonts</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>The J1 Template comes with full icon support for Asciidoc based documents
+                  included. All icon fonts are supported of type:</p>
+              </div>
+              <div class="ulist">
+                <ul>
+                  <li>
+                    <p>Material Design Icons <a href="//materialdesignicons.com/" target="_blank" rel="noopener">(MDI)</a></p>
+                  </li>
+                  <li>
+                    <p>FontAwesome Icons V5 <a href="//fontawesome.com/" target="_blank" rel="noopener">(FA)</a></p>
+                  </li>
+                  <li>
+                    <p>Iconify-Framework Icons <a href="//iconify.design/" target="_blank" rel="noopener">(IF)</a></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="sect2 mt-4">
+                <h3 id="material-designs-icons">Material Designs Icons</h3>
+                <div class="paragraph">
+                  <p>Material Designs Icons can be used as inline icons by using
+                    the MDI inline macro <code>mdi:</code>:</p>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">mdi:icon_name[icon_size, modifier]   <i class="conum" data-value="1"></i><b>(1)</b> <i class="conum" data-value="2"></i><b>(2)</b> <i class="conum" data-value="3"></i><b>(3)</b></code></pre>
+                  </div>
+                </div>
+                <div class="colist arabic">
+                  <table>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="1"></i><b>1</b>
+                      </td>
+                      <td>All <code>icon_name</code> can be found on the preview page for
+                        <a href="//jekyll.one/pages/public/tools/previewer/icon-picker/">MDI Icon Previewer</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="2"></i><b>2</b>
+                      </td>
+                      <td>The <code>icon_size</code> attribute can be one of: <code>xs</code>, <code>sm</code>, <code>lg</code> and <code>1x</code> to <code>10x</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="3"></i><b>3</b>
+                      </td>
+                      <td>The <code>modifier</code> can be used to set the e.g the color (md-blue), an
+                        animation (fa-pulsed) or the orientation (fa-rotate-45)</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Click on the VIEW button <code>VIEW</code> to see how it’s looks alike</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">mdi:home[2x, mdi-pulsed ml-3 mr-2 mb-2] Symbol icon (pulsed) +
+mdi:font-awesome[2x, ml-3 mr-2 mb-2] Brand icon +
+mdi:apple[2x, md-indigo ml-3 mr-2] Brand icon (colored)</code></pre>
+                  </div>
+                </div>
+                <div class="exampleblock result">
+                  <div class="content">
+                    <div class="paragraph">
+                      <p><i class="mdi mdi-2x mdi-pulsed ml-3 mr-2 mb-2 mdi-home"></i> Symbol icon (pulsed)<br>
+                        <i class="mdi mdi-2x ml-3 mr-2 mb-2 mdi-font-awesome"></i> Brand icon<br>
+                        <i class="mdi mdi-2x md-indigo ml-3 mr-2 mdi-apple"></i> Brand icon (colored)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="admonitionblock note">
+                  <table>
+                    <tr>
+                      <td class="icon">
+                        <i class="fa icon-note" title="Note"></i>
+                      </td>
+                      <td class="content">
+                        <div class="paragraph">
+                          <p>Parameters for icon size <code>icon_size</code> and modifiers <code>modifier</code> are
+                            optional. If not given, the icons size <code>size</code> is set to default <code>1x</code>, the
+                            color to <strong>black</strong> and no settings for <strong>modifiers</strong> <code>modifier</code> are applied.</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="sect2 mt-5">
+                <h3 id="fontawesome-icons-v5">FontAwesome Icons V5</h3>
+                <div class="paragraph">
+                  <p>Font Awesome Icons can be used as inline icons by using the macro <strong>fas</strong> <code>fas:</code>
+                    for <strong>standard</strong> icons or the macro <strong>fab</strong> <code>fab</code> for <strong>brand</strong> icons.</p>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">fas:icon_name[icon_size, modifier]   <i class="conum" data-value="1"></i><b>(1)</b> <i class="conum" data-value="2"></i><b>(2)</b> <i class="conum" data-value="3"></i><b>(3)</b></code></pre>
+                  </div>
+                </div>
+                <div class="colist arabic">
+                  <table>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="1"></i><b>1</b>
+                      </td>
+                      <td>All <code>icon_name</code> can be found on the preview page at
+                        <a href="//fontawesome.com/v5/search" target="_blank" rel="noopener">FA Icons</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="2"></i><b>2</b>
+                      </td>
+                      <td>The <code>icon_size</code> attribute can be one of: <code>xs</code>, <code>sm</code>, <code>lg</code> and <code>1x</code> to <code>10x</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="3"></i><b>3</b>
+                      </td>
+                      <td>The <code>modifier</code> can be used to set e.g the color (md-blue), an
+                        animation (fa-pulsed) or the orientation (fa-rotate-45) of an icon</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Click on button <code>VIEW</code> to see how it’s looks alike</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">fas:home[2x, fa-pulsed ml-2 mr-2 mb-2] Solid icon (pulsed) +
+fab:font-awesome[2x, ml-3 mr-2 mb-2] Brand icon +
+fab:apple[2x, md-indigo ml-3 mr-2] Brand icon (colored)</code></pre>
+                  </div>
+                </div>
+                <div class="exampleblock result">
+                  <div class="content">
+                    <div class="paragraph">
+                      <p><i class="fa fas fa-home fa-2x fa-pulsed ml-2 mr-2 mb-2"></i> Solid icon (pulsed)<br>
+                        <i class="fa fab fa-font-awesome fa-2x ml-3 mr-2 mb-2"></i> Brand icon<br>
+                        <i class="fa fab fa-apple fa-2x md-indigo ml-3 mr-2"></i> Brand icon (colored)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="admonitionblock note">
+                  <table>
+                    <tr>
+                      <td class="icon">
+                        <i class="fa icon-note" title="Note"></i>
+                      </td>
+                      <td class="content">
+                        <div class="paragraph">
+                          <p>Parameters for icon size <code>icon_size</code> and modifiers <code>modifier</code> are
+                            optional. If not given, the icons size is set to default <code>1x</code>, the color
+                            to <strong>black</strong> and no settings for modifiers  <code>modifier</code> are applied.</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="sect2 mt-5">
+                <h3 id="iconify-framework-icons">Iconify-Framework Icons</h3>
+                <div class="paragraph">
+                  <p>Iconify-Framework Icons can be used as inline icons by using the inline
+                    macro <code>iconify:</code>.</p>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">iconify:icon_name[icon_size, modifier]   <i class="conum" data-value="1"></i><b>(1)</b> <i class="conum" data-value="2"></i><b>(2)</b> <i class="conum" data-value="3"></i><b>(3)</b></code></pre>
+                  </div>
+                </div>
+                <div class="colist arabic">
+                  <table>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="1"></i><b>1</b>
+                      </td>
+                      <td>All <code>icon_name</code> can be found on the preview page at
+                        <a href="//icon-sets.iconify.design/" target="_blank" rel="noopener">Iconify Icons</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="2"></i><b>2</b>
+                      </td>
+                      <td>The <code>icon_size</code> attribute can be one of: <code>xs</code>, <code>sm</code>, <code>lg</code> and <code>1x</code> to <code>10x</code>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i class="conum" data-value="3"></i><b>3</b>
+                      </td>
+                      <td>The <code>modifier</code> can be used to set e.g the color (md-blue) or additional
+                        positioning classes for margings and padding</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="paragraph">
+                  <p>Click on the VIEW button <code>VIEW</code> to see how it’s looks alike</p>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Brand Icon Open Source</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">iconify:logos:opensource[2x, mr-3 mb-3 ml-4] Brand Icon Open Source</code></pre>
+                  </div>
+                </div>
+                <div class="exampleblock result">
+                  <div class="content">
+                    <div class="paragraph">
+                      <p><span class="iconify iconify-2x mr-3 mb-3 ml-4" data-icon="logos:opensource" data-inline="false"></span> Brand Icon Open Source</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="listingblock noclip">
+                  <div class="title">Brand Icon Netlifyy</div>
+                  <div class="content">
+                    <pre class="rouge highlight"><code data-lang="no_template">iconify:logos:netlify[2x, mr-3 mb-3 ml-4] Brand Icon Netlify</code></pre>
+                  </div>
+                </div>
+                <div class="exampleblock result">
+                  <div class="content">
+                    <div class="paragraph">
+                      <p><span class="iconify iconify-2x mr-3 mb-3 ml-4" data-icon="logos:netlify" data-inline="false"></span> Brand Icon Netlify</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="paragraph">
+                  <p>Find all Iconify-Framework Icons available on page
+                    <a href="//iconify.design/icon-sets/" target="_blank" rel="noopener">Iconify-Framework Icons</a>.</p>
+                </div>
+                <div class="admonitionblock note">
+                  <table>
+                    <tr>
+                      <td class="icon">
+                        <i class="fa icon-note" title="Note"></i>
+                      </td>
+                      <td class="content">
+                        <div class="paragraph">
+                          <p>Parameters for icon size <code>icon_size</code> and modifiers <code>modifier</code> are optional.
+                            If not given, the icons size is set to default <code>1x</code>, the color to <strong>black</strong>
+                            and no settings for modifiers <code>modifier</code> are applied.</p>
+                        </div>
+                        <div class="paragraph">
+                          <p>Note that <strong>not all</strong> icon sets support the color settings for modifiers — if
+                            applied, the color settings will have <strong>no effect</strong>.</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="blind-text">Blind Text</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>The Ruby GEM <strong>Middleman</strong>, a very simple and light-weight static site
+                  generator, provides a set of great helpers for generating <strong>random</strong> text
+                  content. The lorem inline macro <code>lorem:</code> adapted this functionality from
+                  Middleman to be used for Asciidoc-based documents processed by Jekyll.</p>
+              </div>
+              <div class="paragraph">
+                <p>If you start writing larger documents with several chapters, not all of the
+                  content is available initially. It is quite useful to place blind text
+                  first to get a better impression of how a page will look-alike that is not
+                  finished yet.</p>
+              </div>
+              <div class="paragraph">
+                <p>Placeholders for blind text comes in several flavors given by their name
+                  <code>macro</code>. The syntax for the lorem inline macro <code>lorem:</code> is simple like
+                  this:</p>
+              </div>
+              <div class="listingblock noclip">
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">lorem:macro[]
+lorem:macro[size]</code></pre>
+                </div>
+              </div>
+              <div class="listingblock noclip">
+                <div class="title">Example of a lorem sentences macro</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="no_template">lorem:sentences[5]</code></pre>
+                </div>
+              </div>
+              <div class="exampleblock result">
+                <div class="content">
+                  <div class="paragraph">
+                    <p>Alias id corrupti quod earum quis cupiditate voluptate dicta iste non ea tempore odio dignissimos. Maxime rerum rerum animi omnis dicta et explicabo. Dolorum voluptatum eligendi eos est et sint iusto odit velit. Atque rerum distinctio molestias nesciunt id debitis inventore accusamus enim ut. Voluptatem voluptatibus ea nam ut nam id iure magni.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="sect2 mt-4">
+                <h3 id="lorem-types">Lorem Types</h3>
+                <div class="paragraph">
+                  <p>All macro types available for the lorem macro <code>lorem:</code> to be used for blind
+                    text can be found with the following table below.</p>
+                </div>
+                <table class="tableblock frame-all grid-all stretch rtable mb-2">
+                  <caption class="title">Table 3. Macros available</caption>
+                  <colgroup>
+                    <col style="width: 41.6666%;">
+                    <col style="width: 16.6666%;">
+                    <col style="width: 41.6668%;">
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th class="tableblock halign-left valign-top">Macro</th>
+                      <th class="tableblock halign-left valign-top">Type</th>
+                      <th class="tableblock halign-left valign-top">Example</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>word[]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">text</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>et</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>words[5]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">text</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>praesentium id id quae et</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>sentence[]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">text</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>Aliquam repudiandae non iure ipsam ut sunt in asperiores non harum laudantium eos.</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>sentences[5]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">text</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>Blanditiis expedita nesciunt in ex sapiente voluptas dignissimos esse omnis hic quaerat. Aut tempore assumenda possimus sint debitis voluptatem. Rerum tenetur maiores pariatur quo dolor quo et. Quia rerum odio harum dolorem consequuntur assumenda consequatur consequatur debitis consectetur. Velit qui tempora fugit qui quisquam et est unde voluptas hic voluptas.</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>date[]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">date</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>Thu Jul 24, 1952</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>date[strftime]</code> e.g. <code>date[%Y-%m-%d]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">date</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>1993-09-20</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>name[]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">text</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>Antoinette Walton</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>first_name[]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">text</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>Yehudi</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>last_name[]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">text</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p>Palmer</p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock"><code>email[]</code></p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <p class="tableblock">email</p>
+                      </td>
+                      <td class="tableblock halign-left valign-top">
+                        <div class="content">
+                          <div class="paragraph">
+                            <p><a href="mailto:fatimachen@hotmail.com">fatimachen@hotmail.com</a></p>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="github-gist">Github Gist</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>Code snippets may helpful to support your readers for existing code examples.
+                  An excellent place for code snippets is  at Github. To embed an existing
+                  gist into your documents, the Asciidoc Extention <strong>Gist block</strong> provides the
+                  block macro <code>gist::</code> to do so.</p>
+              </div>
+              <div class="paragraph">
+                <p>The following <strong>Gist</strong> snippet is taken from this
+                  <a href="//gist.github.com/mojavelinux/5546622" target="_blank" rel="noopener">example</a>:</p>
+              </div>
+              <div class="listingblock noclip">
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="prometheus"><span class="p">.</span><span class="n">Gist</span> <span class="n">title</span>
+<span class="n">gist::git_address</span><span class="p">[]</span></code></pre>
+                </div>
+              </div>
+              <div class="listingblock noclip">
+                <div class="title">Example of a gist block</div>
+                <div class="content">
+                  <pre class="rouge highlight"><code data-lang="text">.Guard setup to live preview AsciiDoc output
+gist::mojavelinux/5546622[]</code></pre>
+                </div>
+              </div>
+              <div class="exampleblock result">
+                <div class="content">
+                  <div class="mt-3 mb-3">
+                    <div class="openblock gist">
+                      <div class="title notranslate">Guard setup to live preview AsciiDoc output</div>
+                      <div class="content">
+                        <script src="https://gist.github.com/mojavelinux/5546622.js"></script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sect1 mt-5">
+            <h2 id="what-next">What next</h2>
+            <div class="sectionbody">
+              <div class="paragraph">
+                <p>Asciidoc extensions open up advanced possibilities for placing specific
+                  content elements on a page. The number of available extensions will grow.
+                  Extensions for Asciidoc gives handy and powerful functionality needed for
+                  modern web pages.</p>
+              </div>
+              <div class="admonitionblock note">
+                <table>
+                  <tr>
+                    <td class="icon">
+                      <i class="fa icon-note" title="Note"></i>
+                    </td>
+                    <td class="content">
+                      <div class="paragraph">
+                        <p>Asciidoc extensions are available for all content pages based on the Markup
+                          Language Asciidoc created for J1 Template. For content pages based on
+                          <strong>Markdown</strong>, extensions are <strong>not</strong> supported.</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="paragraph">
+                <p>J1 Template supports a rich set of <strong>advanced Bootstrap Modals</strong> that add
+                  dialogs to your web pages for user notifications. The advanced Modals
+                  highlight important information to your visitors. The dialogs are positioned
+                  over everything else in the document so that messages get the full user’s
+                  attention.</p>
+              </div>
+              <div class="paragraph mb-7">
+                <p>Have a look at the preview page
+                  <a href="/pages/public/learn/roundtrip/modals/">Advanced Bootstrap Modals</a> to explore
+                  the possibilities of the <strong>extended</strong> Bootstrap features provided by J1 Template
+                  for your new website.</p>
+              </div>
+            </div>
+          </div>
+          <!-- [INFO   ] [j1.layout.content_generator_page.html ] [ end place content ] -->
+        </main>
+        <!-- [INFO   ] [j1.layout.content_generator_page.html ] [ end main for full page ] -->
+        <!-- [INFO   ] [j1.layout.content_writer.proc         ] [ placement for all lane items finished ] -->
+        <!-- [DEBUG  ] [j1.layout.content_writer.proc         ] [ reset all lane items ] -->
+        <!-- [INFO   ] [j1.layout.content_writer.proc         ] [ end processing ] -->
+      </div>
+      <!-- [INFO   ] [j1.layout.page.html                    ] [ end content_writer processing for region: 'body-main' ] -->
+      <!-- [INFO   ] [j1.layout.default.html                ] [ end content inherited by layout: page ] -->
+      <!-- [INFO   ] [j1.layout.default.html                ] [ call default_writer for region: 'body-footer' ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region body-footer, layout: page ] -->
+      <footer id="exception_container" class="container-fluid no-padding"></footer>
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region body-footer, layout: page ] -->
+      <footer id="footer_uno" class="active_footer"></footer>
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ start processing: load region body-footer, layout: page ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ start processing. collect data for region: body-footer, layout: page ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: core ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: core ] -->
+      <script>
+        $(function() {
+                // [INFO   ] [j1.layout.module_writer.proc          ] [ pass init data for: core ]
+                var settings = $.extend({}, {"tts": "true", "layout": "page", "title": "Extensions", "tagline": "Asciidoc Markup", "fab_menu_id": "open_toc", "scrollbar": "false", "toc": "true", "comments": "false", "scrollDynamicPagesTopOnChange": ""});
+                  j1.init (settings);
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: bs5 ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: bs5 ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: speak2me ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: speak2me ] -->
+      <script>
+        $(function() {
+                // [INFO   ] [j1.layout.module_writer.proc          ] [ pass init data for: speak2me ]
+                var settings = $.extend({}, {"tts": "true", "layout": "page", "title": "Extensions", "tagline": "Asciidoc Markup", "fab_menu_id": "open_toc", "scrollbar": "false", "toc": "true", "comments": "false", "scrollDynamicPagesTopOnChange": ""});
+                  j1.adapter.speak2me.init (settings);
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: bmd ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: ga-opt-in ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: ga-opt-in ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: logger ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: logger ] -->
+      <script>
+        $(function() {
+                  j1.adapter.logger.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: backstretch ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: backstretch ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: attic ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: attic ] -->
+      <script>
+        $(function() {
+              // [INFO   ] [j1.layout.module_writer.proc          ] [ pass module specific frontmatter options for: attic ]
+              var settings = $.extend({}, {"slides":[{"url":"/assets/images/pages/roundtrip/puzzle-1920x1280-bw.jpg", "alt":"puzzle-1920x1280-bw"}]}, {"layout": "page", "title": "Extensions", "tagline": "Asciidoc Markup", "scrollbar": "false", "toc": "true", "comments": "false"});
+                j1.adapter.attic.init (settings);
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: navigator ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: navigator ] -->
+      <script>
+        $(function() {
+                  j1.adapter.navigator.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: mmenu ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: mmenu ] -->
+      <script>
+        $(function() {
+                  j1.adapter.mmenu.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: themes ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: themes ] -->
+      <script>
+        $(function() {
+                  j1.adapter.themes.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: toccer ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: toccer ] -->
+      <script>
+        $(function() {
+                // [INFO   ] [j1.layout.module_writer.proc          ] [ pass init data for: toccer ]
+                var settings = $.extend({}, {"tts": "true", "layout": "page", "title": "Extensions", "tagline": "Asciidoc Markup", "fab_menu_id": "open_toc", "scrollbar": "false", "toc": "true", "comments": "false", "scrollDynamicPagesTopOnChange": ""});
+                  j1.adapter.toccer.init (settings);
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: cookieConsent ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: cookieConsent ] -->
+      <script>
+        $(function() {
+                  j1.adapter.cookieConsent.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: lunr ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: lunr ] -->
+      <script>
+        $(function() {
+                  j1.adapter.lunr.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: fab ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: fab ] -->
+      <script>
+        $(function() {
+                // [INFO   ] [j1.layout.module_writer.proc          ] [ pass init data for: fab ]
+                var settings = $.extend({}, {"tts": "true", "layout": "page", "title": "Extensions", "tagline": "Asciidoc Markup", "fab_menu_id": "open_toc", "scrollbar": "false", "toc": "true", "comments": "false", "scrollDynamicPagesTopOnChange": ""});
+                  j1.adapter.fab.init (settings);
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: jquery-ui ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ jquery-ui module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: theme_switcher ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: theme_switcher ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: rtable ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: rtable ] -->
+      <script>
+        $(function() {
+                  j1.adapter.rtable.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: asciidoctor ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: asciidoctor ] -->
+      <script>
+        $(function() {
+                  j1.adapter.asciidoctor.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: rtextresizer ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ rtextresizer module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: msDropdown ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: msDropdown ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: translator ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: translator ] -->
+      <script>
+        $(function() {
+                  j1.adapter.translator.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: analytics ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: analytics ] -->
+      <script>
+        $(function() {
+                  j1.adapter.analytics.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: CustomModule ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ CustomModule module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: customFunctions ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ customFunctions module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: rouge ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: rouge ] -->
+      <script>
+        $(function() {
+                  j1.adapter.rouge.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: animate ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: animate ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: iframer ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: lightbox ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: lightbox ] -->
+      <script>
+        $(function() {
+                // [INFO   ] [j1.layout.module_writer.proc          ] [ pass init data for: lightbox ]
+                var settings = $.extend({}, {"tts": "true", "layout": "page", "title": "Extensions", "tagline": "Asciidoc Markup", "fab_menu_id": "open_toc", "scrollbar": "false", "toc": "true", "comments": "false", "scrollDynamicPagesTopOnChange": ""});
+                  j1.adapter.lightbox.init (settings);
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: iconify ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: iconify ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: Module Algolia API ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ Module Algolia API module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: clipboard ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: clipboard ] -->
+      <script>
+        $(function() {
+                  j1.adapter.clipboard.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: carousel ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: masterslider ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: mastersliderpro ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ mastersliderpro module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: gallery ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: gallery ] -->
+      <script>
+        $(function() {
+                // [INFO   ] [j1.layout.module_writer.proc          ] [ pass init data for: gallery ]
+                var settings = $.extend({}, {"tts": "true", "layout": "page", "title": "Extensions", "tagline": "Asciidoc Markup", "fab_menu_id": "open_toc", "scrollbar": "false", "toc": "true", "comments": "false", "scrollDynamicPagesTopOnChange": ""});
+                  j1.adapter.gallery.init (settings);
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: lightgallery ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: lightgallery ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: videojs ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: videojs ] -->
+      <script>
+        $(function() {
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: tiktokplayer ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: dailymotionplayer ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: vimeoplayer ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: wistiaplayer ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: rangeslider ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ rangeslider module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: scroller ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: advertising ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ advertising module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: comments ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ comments module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: require ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ require module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: waves ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ waves module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: js-cookie ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ js-cookie module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: particles ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ particles module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: slick ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: masonry ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: iconpicker ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: theme_toggler ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: theme_toggler ] -->
+      <script>
+        $(function() {
+                  j1.adapter.themeToggler.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: lazy_loader ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: lazy_loader ] -->
+      <script>
+        $(function() {
+                  j1.adapter.lazyLoader.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: dropdowns ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ dropdowns module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: slim_select ] -->
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ place J1 adapter for resource: slim_select ] -->
+      <script>
+        $(function() {
+                  j1.adapter.slimSelect.init();
+         });
+      </script>
+      <!-- [INFO   ] [j1.layout.module_writer.proc          ] [ placement for all data_keys finished ] -->
+      <!-- [DEBUG  ] [j1.layout.module_writer.proc          ] [ reset all data_keys ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: chatbot ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ chatbot module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: docsearch ] -->
+      <!-- [WARN   ] [j1.layout.module_writer.proc          ] [ docsearch module detected as: false ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ process resource: gemini ] -->
+      <!-- [INFO   ] [j1.layout_module_generator.html       ] [ end processing ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing: load region head, layout: page ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ placement for all lane items finished ] -->
+      <!-- [DEBUG  ] [j1.layout.default_writer.proc         ] [ reset all lane items ] -->
+      <!-- [INFO   ] [j1.layout.default_writer.proc         ] [ end processing ] -->
+      <!-- [INFO   ] [j1.layout.default.html                ] [ end content_writer default_writer for region: 'body-footer' ] -->
+    </div>
+    <!-- [INFO   ] [j1.layout.default.html                ] [ end suppress flicker ] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ place hidden color selector/themes: bg-primary ] -->
+    <div id="bg-primary" class="bg-primary" style="display: none"></div>
+    <!-- [INFO   ] [j1.layout.default.html                ] [ end default writer] -->
+    <!-- [INFO   ] [j1.layout.default.html                ] [ place container for the floating action button (FAB) ] -->
+    <div id="fab-container"></div>
+    <!-- [INFO   ] [j1.layout.default.html                ] [ initialize global JS scripts ] -->
+    <script>
+      //  BS tooltips and popovers
+      $(function() {
+          // initialize BS tooltips
+          var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+          var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+          });
+          // initialize BS popovers
+          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+          });
+      });
+    </script>
+  </body>
+  <!-- [INFO   ] [j1.layout.default.html                ] [ end page processing ] -->
+</html>
+  

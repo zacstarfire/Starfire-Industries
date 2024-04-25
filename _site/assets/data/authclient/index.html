@@ -1,0 +1,193 @@
+
+
+
+  <!-- [INFO   ] [~/assets/data/authclient.html              ] [ set meta data (robots) to exclude HTML datafiles from index ] -->
+<head>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<div id="authClientModals">
+  <!-- [INFO   ] [~/assets/data/authclient.html              ] [START: Modal signin|signup] -->
+  <div id="modalOmniSignIn"
+      class="modal fade"
+      role="dialog"
+      tabindex="-1"
+      aria-labelledby="modalOmniSignIn" aria-hidden="true">
+    <div class="modal-dialog modal-frame modal-top modal-notify modal-primary" role="document">
+      <!-- Content -->
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header">
+          <p class="lead">
+            SignIn
+          </p>
+        </div>
+        <!-- Body -->
+        <div class="modal-body mr-5 ml-5 mb-0">
+          <p style="text-align: justify;"><div class="paragraph">
+<p>In order to get <strong>signed in</strong>, check one of the options below and mark a provider for authentication. You&#8217;ll be <strong>redirected</strong> to authenticate with the provider <strong>selected</strong>. If signed in <strong>successfully</strong>, you get back to this site for the page requested.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+To get access to secured pages of this site, authentication with a provider is needed only <strong>once</strong>.
+</td>
+</tr>
+</table>
+</div></p>
+          <h5 class="mt-1 mb-3 notoc">Available options</h5>
+          <!-- Modal nav pills -->
+          <div class="row ml-2 mr-2">
+            <ul class="nav nav-pills nav-pills-icons mt-2" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" href="#h-tabs-2" role="tab" data-bs-toggle="tab" aria-expanded="false" aria-selected="true">
+                  <i class="mdib mdib-github mt-1 mb-2"></i> github
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h-tabs-1" role="tab" data-bs-toggle="tab" aria-expanded="false" aria-selected="false">
+                  <i class="mdib mdib-disqus mt-1 mb-2"></i> disqus
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content tab-space">
+                <div class="tab-pane active" id="h-tabs-2"><div class="paragraph">
+<p>SignIn to Github. Get access to all <strong>PROTECTED</strong> content pages of this site.</p>
+</div></div>
+                <div class="tab-pane" id="h-tabs-1"><div class="paragraph">
+<p>SignIn to Disqus. Get access to all <strong>PROTECTED</strong> content pages of this site.</p>
+</div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="modal-footer justify-content-center">
+          <a href="#" type="button" id="signInButton" class="btn btn btn-flex btn-md btn-primary mr-3" data-bs-dismiss="modal">
+            <i class="mdib mdib-login mdib-18px mr-1"></i>
+            Yes, please
+          </a>
+          <a href="#" type="button" id="exitButton" class="btn btn btn-flex btn-md btn-secondary" data-bs-dismiss="modal">
+            <i class="mdib mdib-close mdib-18px mr-1"></i>
+            No, thanks
+          </a>
+        </div>
+      </div>
+      <!-- END Content -->
+    </div>
+  </div> <!-- Modal SignIn -->
+  <!-- [INFO   ] [~/assets/data/authclient.html              ] [END: Modal signin] -->
+  <!-- [INFO   ] [~/assets/data/authclient.html              ] [START: Modal signout] -->
+  <div id="modalOmniSignOut"
+      class="modal fade top"
+      role="dialog" tabindex="-1"
+      aria-labelledby="modalOmniSignOut" aria-hidden="true" data-backdrop="false">
+    <div class="modal-dialog modal-frame modal-top modal-notify modal-danger" role="document">
+      <!-- Content -->
+      <div class="modal-content">
+        <!-- Header -->
+        <div class="modal-header">
+          <p class="lead">
+            SignOut
+          </p>
+        </div> <!-- END Header -->
+        <!-- Body -->
+        <div class="modal-body mr-5 ml-5 mb-0">
+          <!-- User info placed dynamically -->
+          <div id="user_state_info" class="text-left mb-3">
+            <h4 class="user-info">You are signed in to provider: </h4>
+          </div>
+          <!-- p style="text-align: justify;">
+                <div class="paragraph">
+<p>After signing out from this site, you&#8217;ll be <strong>redirected</strong> to the <strong>provider</strong> you&#8217;re currently authenticated. From your home page at the <strong>provider</strong>, you can <strong>sign out</strong> completely.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+In order to signing out <strong>completely</strong>, check the switch below to <strong>on</strong>.
+</td>
+</tr>
+</table>
+</div>
+          </p -->
+          <div><div class="paragraph">
+<p>After signing out from this site, you&#8217;ll be <strong>redirected</strong> to the <strong>provider</strong> you&#8217;re currently authenticated. From your home page at the <strong>provider</strong>, you can <strong>sign out</strong> completely.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+In order to signing out <strong>completely</strong>, check the switch below to <strong>on</strong>.
+</td>
+</tr>
+</table>
+</div></div>
+          <!-- Options DISABLED for now
+          <h5 class="mt-1 mb-3 notoc">Available options</h5>
+          <form id="authclient-form" class="form-horizontal">
+            <div class="mdc-list-group">
+              <div class="ml-5 mt-0 mr-0 mb-5">
+                <div class="switch">
+                  <label>
+                    <input id="providerSignOut" name="providerSignOut" type="checkbox">
+                    <span class="bmd-switch-track"></span>
+                    SignOut completely (Provider)
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+          -->
+        </div> <!-- END Body -->
+        <!-- Footer -->
+        <div class="modal-footer">
+          <a href="#" type="button" id="signOutButton" class="btn btn btn-flex btn-md btn-danger mr-3" data-bs-dismiss="modal">
+            <i class="mdib mdib-logout mdib-18px mr-1"></i>
+            Yes, please
+          </a>
+          <a href="#" type="button" id="exitButton" class="btn btn btn-flex btn-md btn-secondary" data-bs-dismiss="modal">
+            <i class="mdib mdib-close mdib-18px mr-1"></i>
+            No, thanks
+          </a>
+        </div> <!-- END Footer -->
+      </div> <!-- END Modal content -->
+    </div> <!-- END Modal dialog -->
+  </div> <!-- END Modal SignOut -->
+  <!-- [INFO   ] [~/assets/data/authclient.html              ] [START: Modal SIDE INFO signed in] -->
+  <div class="modal fade right" id="sideModalAlreadySigneIn" tabindex="-1" role="dialog" aria-labelledby="sideModalAlreadySigneIn" aria-hidden="true" data-backdrop="false">
+    <div class="modal-dialog modal-side modal-top-right modal-notify modal-success" role="document">
+      <!-- Content -->
+      <div class="modal-content">
+        <!-- Header -->
+        <div class="modal-header">
+          <i class="mdib mdib-account mdib-2x md-grey-100"></i>
+          <p class="lead">Info</p>
+        </div>
+        <!-- Body -->
+        <div class="modal-body">
+          <div class="text-center">
+            <p>You're already signed in</p>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="modal-footer justify-content-center">
+          <a href="#" type="button" class="btn btn btn-flex btn-md btn-primary" data-bs-dismiss="modal">OK</a>
+        </div>
+      </div>
+      <!-- END Content -->
+    </div>
+  </div> <!-- END Modal UserStateInfo -->
+  <!-- [INFO   ] [~/assets/data/authclient.html              ] [END: Modal SIDE INFO signed in] -->
+</div>
+
+
+

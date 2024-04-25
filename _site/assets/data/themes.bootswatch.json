@@ -1,0 +1,14 @@
+
+
+  {
+  "themes":
+  [
+    {"name": "UnoLight",    "css": "/assets/themes/j1/core/css/themes/unolight/bootstrap.css"},
+    {"name": "UnoDark",     "css": "/assets/themes/j1/core/css/themes/uno-dark/bootstrap.css"},
+    {"name": "Vapor",       "css": "/assets/themes/j1/core/css/themes/theme_vapor/bootstrap.css"},
+    {"name": "Bootstrap",   "css": "/assets/themes/j1/core/css/themes/bootstrap/bootstrap.css"}
+  ]
+}
+
+
+
