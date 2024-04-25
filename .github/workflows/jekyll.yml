@@ -26,6 +26,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Lock
+        run: bundle lock --add-platform x86_64-linux
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
