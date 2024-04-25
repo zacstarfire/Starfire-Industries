@@ -11,7 +11,7 @@
  # J1 Template is licensed under the MIT License.
  # For details, see: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
  # -----------------------------------------------------------------------------
- #  Adapter generated: 2024-04-25 16:34:03 +0200
+ #  Adapter generated: 2024-04-25 16:38:04 +0200
  # -----------------------------------------------------------------------------
 */
 // -----------------------------------------------------------------------------
@@ -50,7 +50,7 @@ j1.adapter.particles = ((j1, window) => {
       // -----------------------------------------------------------------------
       var settings = $.extend({
         module_name: 'j1.adapter.particles',
-        generated:   '2024-04-25 16:34:03 +0200'
+        generated:   '2024-04-25 16:38:04 +0200'
       }, options);
       // -----------------------------------------------------------------------
       // global variable settings

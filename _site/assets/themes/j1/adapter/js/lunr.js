@@ -13,7 +13,7 @@
  # J1 Template is licensed under the MIT License.
  # For details, see: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
  # -----------------------------------------------------------------------------
- #  Adapter generated: 2024-04-25 16:34:03 +0200
+ #  Adapter generated: 2024-04-25 16:38:04 +0200
  # -----------------------------------------------------------------------------
 */
 // -----------------------------------------------------------------------------
@@ -167,7 +167,7 @@ j1.adapter.lunr = ((j1, window) => {
       // -----------------------------------------------------------------------
       var settings = $.extend({
         module_name: 'j1.adapter.lunr',
-        generated:   '2024-04-25 16:34:03 +0200'
+        generated:   '2024-04-25 16:38:04 +0200'
       }, options);
       // Load  module DEFAULTS|CONFIG
       searchDefaults    = $.extend({},   {"enabled":false, "placement":"navbar", "target":"_blank", "rebuild":false, "full_index":true, "stopwords":"/assets/themes/j1/modules/lunr/stopwords/en.txt", "stopwords_locale":"en", "strip_index_html":false, "min_length":3, "date_format":"mmm dd, yyyy", "module_dir":"/assets/themes/j1/modules/lunr/js", "index_dir":"/assets/data", "index_name":"lunr-index.json", "index_file":"/assets/data/lunr-index.json", "search_input":"#search-query", "results":"#search-results", "template":"#search-results-template", "titleMsg":null, "emptyMsg":null, "topsearch":{"enabled":false, "search_history_max":30, "search_history_enabled":false, "search_history_from_cookie":true, "allow_history_updates_on_max":true, "search_history_id":"search_history", "search_history_wrapper_id":"search_history_select_wrapper", "container_id":"search_modal", "type":"quicksearch", "icon_family":"mdib", "icon_color":"var(--bs-white)", "icon_size":"mdib-2x", "search_icon":"magnify", "clear_icon":"format-clear", "input_color":"rgba(0, 0, 0, 0.7)", "background_color":"transparent", "placeholder":"Your search expression", "search_heading_lead":"", "result_heading_lead":""}});
