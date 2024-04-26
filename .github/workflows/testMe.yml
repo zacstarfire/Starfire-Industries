@@ -34,14 +34,12 @@ jobs:
       - name: 1- Start J1 Site
         run: 
           /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem update --system
-          /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install bundler
-          /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install j1-template
-          j1 setup
-          j1 site
+          
+          # /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install bundler
+          # /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install j1-template
+          # j1 setup
+          # j1 site
 
-
-
-        
              # /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle lock --add-platform x86_64-linux
              
              
