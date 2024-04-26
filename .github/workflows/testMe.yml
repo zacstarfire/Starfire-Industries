@@ -31,8 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:        
-      - name: 1- Setup Ruby
-        run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install bundler -v 2.5.9
-             /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle lock --add-platform x86_64-linux
-             /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle config --local path /home/runner/work/Starfire-Industries.github.io/Starfire-Industries.github.io/vendor/bundle
+      - name: 1- Start J1 Site
+        run: j1 site
+             # /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle lock --add-platform x86_64-linux
+             
              
