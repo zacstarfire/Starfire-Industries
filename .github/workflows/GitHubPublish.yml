@@ -1,0 +1,58 @@
+name: Testing the GitHub Pages Publication
+
+on:
+  push
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:        
+        # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    # - uses: actions/cache@v2
+    #   with:
+    #     path: vendor/bundle
+    #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+    #     restore-keys: |
+    #       ${{ runner.os }}-gems-
+
+    # Standard usage
+    # - uses:  helaili/jekyll-action@v2
+    #   with:
+    #     token: ${{ secrets.GITHUB_TOKEN }}
+
+    # Specify the Jekyll source location as a parameter
+    # - uses: helaili/jekyll-action@v2
+    #   with:
+    #     token: ${{ secrets.GITHUB_TOKEN }}
+    #     jekyll_src: 'sample_site'
+
+    # Specify the target branch (optional)
+    - uses: helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        target_branch: 'gh-pages'
+        
+    - name: 1- gem update
+      run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem update --system
+    - name: 2- install bundler
+      run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install bundler
+    - name: 3- install j1-template
+      run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install j1-template
+    - name: 4- j1 generate
+      run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/j1 generate "${{ steps.pages.outputs.base_path }}"
+    - name: 5- j1 setup
+      run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/j1 setup
+    - name: 6- j1 rebuild
+      run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/j1 rebuild
+    - name: 7- j1 site
+      run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/j1 site
+        
+          # /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install bundler
+          # /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/gem install j1-template
+          # j1 setup
+          # j1 site
+
+             # /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle lock --add-platform x86_64-linux
+             
+             
