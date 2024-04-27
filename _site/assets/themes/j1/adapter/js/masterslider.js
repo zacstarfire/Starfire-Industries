@@ -13,7 +13,7 @@
  # J1 Template is licensed under the MIT License.
  # For details, see: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
  # -----------------------------------------------------------------------------
- #  Adapter generated: 2024-04-25 16:38:04 +0200
+ #  Adapter generated: 2024-04-25 16:41:58 +0200
  # -----------------------------------------------------------------------------
 */
 // -----------------------------------------------------------------------------
@@ -67,7 +67,7 @@ j1.adapter.masterslider = ((j1, window) => {
       // -----------------------------------------------------------------------
       var settings = $.extend({
         module_name: 'j1.adapter.masterslider',
-        generated:   '2024-04-25 16:38:04 +0200'
+        generated:   '2024-04-25 16:41:58 +0200'
       }, options);
       // Load  module DEFAULTS|CONFIG
       masterSliderDefaults = $.extend({}, {"xhr_data_path":"/assets/data/masterslider", "module_version":"lite", "save_slider_config":true, "slider_manager":true, "slider_manager_load_timeout":2500, "icon_family":"mdib", "icon_class":false, "icon_color":"var(--bs-blue)", "icon_size":"2x", "skin":"default", "lightbox":{"enabled":false, "type":"lb"}, "controls":{"arrows":{"enabled":false, "autohide":false, "overVideo":true, "hideUnder":null}, "bullets":{"enabled":false, "autohide":false, "overVideo":true, "dir":"h", "hideUnder":null, "align":"bottom", "margin":10}, "thumblist":{"enabled":false, "width":100, "height":80, "autohide":true, "overVideo":true, "dir":"h", "speed":17, "hideUnder":null, "inset":false, "arrows":false, "hover":false, "customClass":"", "align":"right", "type":"thumbs", "margin":1, "space":1, "fillMode":"fill"}, "scrollbar":{"enabled":false, "autohide":false, "overVideo":true, "dir":"h", "inset":false, "align":"bottom", "color":"var(--md-gray-800)", "hideUnder":null, "margin":10, "width":4}, "circletimer":{"enabled":false, "autohide":false, "overVideo":true, "color":"var(--md-gray-300)", "radius":4, "stroke":10, "hideUnder":null}, "timebar":{"enabled":false, "autohide":false, "overVideo":true, "color":"var(--bs-white)", "hideUnder":null, "align":"bottom", "inset":false, "margin":0}, "slideinfo":{"enabled":false, "autohide":false, "overVideo":true, "insertTo":"", "size":100, "hideUnder":null, "align":"bottom", "inset":false, "margin":10}}, "options":{"width":300, "height":150, "minHeight":0, "space":0, "start":1, "grabCursor":true, "swipe":true, "mouse":true, "keyboard":false, "layout":"boxed", "wheel":false, "autoplay":false, "instantStartLayers":false, "mobileBGVideo":false, "loop":false, "shuffle":false, "preload":0, "heightLimit":true, "autoHeight":false, "smoothHeight":true, "endPause":false, "overPause":true, "fillMode":"fill", "centerControls":true, "startOnAppear":false, "layersMode":"center", "autofillTarget":"", "hideLayers":false, "fullscreenMargin":0, "speed":20, "dir":"h", "responsive":true, "tabletWidth":768, "tabletHeight":null, "phoneWidth":480, "phoneHeight":null, "sizingReference":"window", "parallaxMode":"mouse", "filters":null, "view":"basic"}, "plugins":{"MSScrollParallax":{"enabled":false, "layers_parallax_depth":50, "background_parallax_depth":40, "fade_layers":false}}});

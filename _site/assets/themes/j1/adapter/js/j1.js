@@ -13,7 +13,7 @@
  # J1 Template is licensed under the MIT License.
  # For details, see: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
  # -----------------------------------------------------------------------------
- # Adapter generated: 2024-04-25 16:38:04 +0200
+ # Adapter generated: 2024-04-25 16:41:58 +0200
  # -----------------------------------------------------------------------------
 */
 // -----------------------------------------------------------------------------
@@ -210,7 +210,7 @@ var j1 = ((options) => {
       // -----------------------------------------------------------------------
       var settings = $.extend({
         module_name: 'j1',
-        generated:   '2024-04-25 16:38:04 +0200'
+        generated:   '2024-04-25 16:41:58 +0200'
       }, options);
       // create settings object from frontmatter options
       frontmatterOptions  = options != null ? $.extend({}, options) : {};
