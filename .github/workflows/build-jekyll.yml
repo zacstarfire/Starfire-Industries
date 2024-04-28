@@ -1,4 +1,4 @@
-name: Build and Deploy to Github Pages
+name: build-jekyll.yml
 
 on: workflow_dispatch
 
