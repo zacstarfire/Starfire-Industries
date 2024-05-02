@@ -31,6 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Lock Bundle
+        run: bundle lock --add-platform x86_64-linux
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
@@ -42,8 +44,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Lock
-        run: bundle lock --add-platform x86_64-linux
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
