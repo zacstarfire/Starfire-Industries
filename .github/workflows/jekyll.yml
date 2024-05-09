@@ -38,7 +38,7 @@ jobs:
       - name: Setup Ruby 2
         run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle config --local deployment true
       - name: Setup Ruby 3
-        run: bundle lock --add-platform x86_64-linux
+        run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle lock --add-platform x86_64-linux
       - name: Setup Ruby 4
         run: /opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle install --jobs 4
       #- name: Setup Ruby
